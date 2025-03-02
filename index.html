@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QQ Lang</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Отключаем выделение текста для панелей */
+        .columns-container {
+            -webkit-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+        
+        /* Стили для модального окна изображений */
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 1000;
+            padding-top: 50px;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            overflow: auto;
+            background-color: rgba(0,0,0,0.9);
+        }
+        
+        .modal-content {
+            margin: auto;
+            display: block;
+            max-width: 90%;
+            max-height: 90%;
+        }
+        
+        .modal-content {
+            animation-name: zoom;
+            animation-duration: 0.6s;
+        }
+        
+        @keyframes zoom {
+            from {transform:scale(0)}
+            to {transform:scale(1)}
+        }
+        
+        /* Стили для кнопки закрытия */
+        .close-modal {
+            position: absolute;
+            top: 15px;
+            right: 25px;
+            color: #f1f1f1;
+            font-size: 40px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        /* Добавьте в раздел стилей */
+        .db-selection-modal {
+            display: block;
+            position: fixed;
+            z-index: 2000;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.7);
+        }
+
+        .db-selection-content {
+            background-color: #fefefe;
+            margin: 15% auto;
+            padding: 20px;
+            border-radius: 8px;
+            width: 300px;
+            text-align: center;
+        }
+
+        .db-options {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 20px;
+        }
+
+        .db-option-btn {
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        .db-option-btn:hover {
+            background-color: #45a049;
+        }
+
+        /* Обновленные стили для кнопки переключения БД */
+        .db-switcher {
+            position: fixed;
+            top: 5px;
+            right: 5px;
+            z-index: 1000;
+            background: rgba(255, 255, 255, 0.8);
+            padding: 5px 8px;
+            border-radius: 4px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+            font-size: 12px;
+        }
+
+        #switchDbButton {
+            padding: 4px 8px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+            font-size: 10px;
+            text-transform: uppercase;
+        }
+
+        #currentDbName {
+            margin-left: 5px;
+            font-weight: bold;
+            font-size: 16px; /* Размер для emoji флага */
+        }
+
+        /* Добавление стилей для кнопки экспорта */
+        #exportDbButton {
+            padding: 2px 4px;
+            background-color: #2196F3;
+            color: white;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+            font-size: 12px;
+            margin-left: 5px;
+        }
+
+        #exportDbButton:hover {
+            background-color: #0b7dda;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Кнопка переключения баз данных -->
+        <div class="db-switcher">
+            <button id="switchDbButton">Язык</button>
+            <span id="currentDbName"></span>
+            <button id="exportDbButton" title="Экспорт данных">💾</button>
+        </div>
+        
+        <div class="columns-container" id="columnsContainer">
+            <!-- 7 колонок -->
+            <div class="column" id="column1">
+                <div class="column-header">
+                    <span class="column-title">Суб/Объ</span>
+                    <div class="add-item-btn" data-column="1">+</div>
+                </div>
+                <div class="items-container"></div>
+            </div>
+            <div class="column" id="column2">
+                <div class="column-header">
+                    <span class="column-title">Tenses</span>
+                    <div class="add-item-btn" data-column="2">+</div>
+                </div>
+                <div class="items-container"></div>
+            </div>
+            <div class="column" id="column3">
+                <div class="column-header">
+                    <span class="column-title">Verbs</span>
+                    <div class="add-item-btn" data-column="3">+</div>
+                </div>
+                <div class="items-container"></div>
+            </div>
+            <div class="column" id="column4">
+                <div class="column-header">
+                    <span class="column-title">Структ</span>
+                    <div class="add-item-btn" data-column="4">+</div>
+                </div>
+                <div class="items-container"></div>
+            </div>
+            <div class="column" id="column5">
+                <div class="column-header">
+                    <span class="column-title">Место</span>
+                    <div class="add-item-btn" data-column="5">+</div>
+                </div>
+                <div class="items-container"></div>
+            </div>
+            <div class="column" id="column6">
+                <div class="column-header">
+                    <span class="column-title">Время</span>
+                    <div class="add-item-btn" data-column="6">+</div>
+                </div>
+                <div class="items-container"></div>
+            </div>
+            <div class="column" id="column7">
+                <div class="column-header">
+                    <span class="column-title">Нумерное</span>
+                    <div class="add-item-btn" data-column="7">+</div>
+                </div>
+                <div class="items-container"></div>
+            </div>
+            <div class="column" id="column8">
+                <div class="column-header">
+                    <span class="column-title">Чувс</span>
+                    <div class="add-item-btn" data-column="8">+</div>
+                </div>
+                <div class="items-container"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Модальное окно для увеличенного изображения -->
+    <div id="imageModal" class="modal" tabindex="-1">
+        <span class="close-modal">&times;</span>
+        <img class="modal-content" id="modalImage">
+    </div>
+
+    <!-- Подключаем новые файлы -->
+    <script src="db.js"></script>
+    <script src="items.js"></script>
+    <script src="imageManager.js"></script>
+    <script src="imageSelector.js"></script>
+    <script src="scroll.js"></script>
+    <script src="dragAndSave.js"></script>
+    <script src="app.js"></script>
+
+    <!-- Добавьте перед закрывающим тегом body -->
+    <div id="dbSelectionModal" class="db-selection-modal">
+        <div class="db-selection-content">
+            <h2>Выберите язык</h2>
+            <div class="db-options">
+                <button id="db1Button" class="db-option-btn">Srpski</button>
+                <button id="db2Button" class="db-option-btn">Portuguese</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html> 
