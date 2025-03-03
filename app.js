@@ -179,6 +179,24 @@ window.App = {
             });
         }
         
+        // Обработчик для определения многострочного текста
+        document.addEventListener('input', function(e) {
+            if (e.target.parentElement && e.target.parentElement.classList.contains('text-cell')) {
+                // Проверяем, стал ли текст многострочным
+                const scrollHeight = e.target.scrollHeight;
+                const clientHeight = e.target.clientHeight;
+                
+                // Если контент больше, чем видимая область - это многострочный текст
+                if (scrollHeight > clientHeight || e.target.innerHTML.includes('<br>') || 
+                    e.target.innerHTML.includes('</div>')) {
+                    e.target.classList.add('multiline');
+                } else if (e.target.innerHTML.length < 30) { 
+                    // Если текст короткий, убираем класс многострочности
+                    e.target.classList.remove('multiline');
+                }
+            }
+        });
+        
         // Отмечаем, что обработчики инициализированы
         this.eventHandlersInitialized = true;
     },
@@ -272,6 +290,16 @@ window.App = {
                     }
                 });
             }
+            
+            // Также проверим все ячейки при загрузке элементов
+            setTimeout(function() {
+                document.querySelectorAll('.text-cell div[contenteditable]').forEach(div => {
+                    if (div.scrollHeight > div.clientHeight || div.innerHTML.includes('<br>') || 
+                        div.innerHTML.includes('</div>')) {
+                        div.classList.add('multiline');
+                    }
+                });
+            }, 100);
         });
     },
     

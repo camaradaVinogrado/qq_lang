@@ -111,7 +111,9 @@ body {
 }
 
 .text-cell {
-    height: 30px;
+    padding: 0;  /* Убираем внутренние отступы в ячейке */
+    vertical-align: top;
+    border: 1px solid #e0e0e0;
     overflow: hidden;
     text-overflow: ellipsis;
 }
@@ -120,7 +122,22 @@ body {
     width: 100%;
     display: block;
     outline: none;
-    min-height: 30px;
+    min-height: 20px;  /* Уменьшаем минимальную высоту */
+    height: auto;      /* Автоматическая высота */
+    padding: 4px 6px;  /* Добавляем отступы к контенту для удобства редактирования */
+    line-height: 1.2;  /* Более компактная высота строки */
+    transition: min-height 0.2s ease; /* Плавное изменение высоты */
+    overflow: hidden;
+}
+
+/* Увеличиваем высоту когда пользователь редактирует */
+.text-cell [contenteditable]:focus {
+    min-height: 22px; /* Чуть выше при фокусе для удобства */
+}
+
+/* Стиль для ячеек с многострочным содержимым */
+.text-cell [contenteditable].multiline {
+    min-height: 40px; /* Больше места для многострочного контента */
 }
 
 .image-cell {
