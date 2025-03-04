@@ -243,9 +243,9 @@ body {
     opacity: 1;
 }
 
+/* Полностью переписываем стили для всех кнопок управления изображениями */
 .image-btn {
     padding: 2px 4px;
-    background-color: rgba(245, 245, 245, 0.8);
     color: #333;
     border: 1px solid #ccc;
     border-radius: 3px;
@@ -253,24 +253,25 @@ body {
     font-size: 10px;
     min-width: 22px;
     text-align: center;
+    background-color: rgba(235, 235, 255, 0.8) !important;
+    opacity: 0.8;
+    transition: opacity 0.3s, background-color 0.3s;
 }
 
-.delete-btn, .replace-btn, .edit-url-btn {
-    background-color: rgba(235, 235, 255, 0.8);
-    border-color: #e0e0e0;
-}
-
-.image-btn:hover {
-    background-color: #e0e0e0;
-}
-
-/* Если нет изображения, показываем кнопки по центру */
-.image-cell:not(:has(.thumbnail)) .image-actions {
-    position: static;
-    flex-direction: row;
-    justify-content: center;
+/* При наведении на ячейку делаем все кнопки более видимыми */
+.image-cell:hover .image-btn {
     opacity: 1;
-    background: transparent;
+}
+
+/* При наведении на кнопку делаем её светлее */
+.image-btn:hover {
+    background-color: rgba(245, 245, 255, 0.9) !important;
+}
+
+/* Удаляем любые специфические стили для отдельных кнопок, чтобы все выглядели одинаково */
+.delete-btn, .replace-btn, .edit-url-btn, .add-url-btn {
+    /* Reset to ensure all buttons look the same */
+    background-color: rgba(235, 235, 255, 0.8) !important;
 }
 
 /* Полоса прокрутки */
@@ -571,4 +572,16 @@ body {
     max-height: 90%;
     width: 800px;
     height: 600px;
+}
+
+/* Специальное правило для кнопки add, чтобы гарантированно применить стиль */
+.image-btn.add-url-btn {
+    background-color: rgba(235, 235, 255, 0.8);
+    border-color: #e0e0e0;
+    opacity: 0.8; /* Дополнительная прозрачность */
+}
+
+/* Для всех кнопок изображений при наведении */
+.image-cell:hover .image-btn {
+    opacity: 1;
 } 
