@@ -28,9 +28,16 @@ window.ImageManager = {
         // Обновляем доступные действия
         Items.updateImageActions(cell);
         
-        // Сохраняем данные
+        // КРИТИЧЕСКОЕ ИЗМЕНЕНИЕ: Теперь мы НЕ сохраняем данные в БД при начальной загрузке страницы
+        // т.к. это может стереть заголовок, который ещё не вставлен в DOM
         const item = cell.closest('.item');
-        if (item) {
+        if (item && !window.isInitialPageLoad) {
+            // Получаем текущий title для отладки
+            const titleElement = item.querySelector('.item-title');
+            const currentTitle = titleElement ? titleElement.innerHTML : 'none';
+            console.log('insertImageToCell сохраняет элемент с title:', currentTitle);
+            
+            // Сохраняем только если это не начальная загрузка страницы
             const itemData = Items.createItemData(item);
             DB.saveItem(itemData);
             return true;

@@ -120,9 +120,18 @@ window.Items = {
         const itemId = item.dataset.itemId;
         const columnId = item.dataset.columnId;
         
-        // Получаем заголовок
+        // Получаем заголовок и проверяем его наличие
         const titleElement = item.querySelector('.item-title');
         const title = titleElement ? titleElement.innerHTML : '';
+        
+        // Добавляем дополнительную проверку для отладки
+        if (titleElement && titleElement.innerHTML && titleElement.innerHTML.trim() !== '') {
+            console.log('createItemData нашел title:', titleElement.innerHTML);
+        } else if (titleElement) {
+            console.warn('title элемент найден, но содержимое пустое');
+        } else {
+            console.warn('title элемент не найден!');
+        }
         
         // Собираем текстовые поля (все 6)
         const textCells = Array.from(item.querySelectorAll('.text-cell div[contenteditable]'))
@@ -138,7 +147,7 @@ window.Items = {
         // Сохраняем порядок элемента
         const order = parseInt(item.dataset.order) || 0;
         
-        return {
+        const result = {
             id: itemId,
             columnId: columnId,
             title: title,
@@ -147,6 +156,14 @@ window.Items = {
             order: order,
             timestamp: Date.now()
         };
+        
+        // Финальная проверка
+        if (title && title.trim() !== '' && (!result.title || result.title.trim() === '')) {
+            console.error('КРИТИЧЕСКАЯ ОШИБКА: title потерян при формировании объекта данных!');
+            result.title = title; // Принудительно восстанавливаем
+        }
+        
+        return result;
     },
     
     // Обработка действий с изображениями
@@ -168,7 +185,7 @@ window.Items = {
         }
     },
     
-    // Упрощенная функция добавления изображения по URL
+    // Улучшенная функция добавления изображения по URL с сохранением title
     addImageByUrl: function(cell) {
         const url = prompt('Введите прямой URL изображения:');
         if (!url) return;
@@ -176,7 +193,7 @@ window.Items = {
         const tempImg = new Image();
         
         tempImg.onload = function() {
-            // Изображение успешно загружено, добавляем его
+            // Изображение успешно загружено
             const img = document.createElement('img');
             img.src = url;
             img.className = 'thumbnail';
@@ -195,7 +212,25 @@ window.Items = {
             // Сохраняем данные
             const item = cell.closest('.item');
             if (item) {
+                // Получаем заголовок ПЕРЕД созданием данных (для отладки)
+                const titleElement = item.querySelector('.item-title');
+                const titleText = titleElement ? titleElement.innerHTML : '';
+                console.log('Заголовок перед сохранением URL:', titleText);
+                
+                // Создаем и сохраняем данные
                 const itemData = Items.createItemData(item);
+                
+                // Проверяем, что заголовок попал в данные
+                console.log('Данные для сохранения. Title:', itemData.title, 'ID:', itemData.id);
+                
+                // Явно проверяем, что title не пустой
+                if (titleText && (!itemData.title || itemData.title.trim() === '')) {
+                    console.warn('Title потерян при создании itemData! Восстанавливаем...');
+                    itemData.title = titleText;
+                }
+                
+                // Сохраняем в БД с принудительной установкой timestamp
+                itemData.timestamp = Date.now();
                 DB.saveItem(itemData);
             }
         };
@@ -207,7 +242,7 @@ window.Items = {
         tempImg.src = url;
     },
     
-    // Обновленный метод сохранения контента текстовой ячейки
+    // Обновленный метод для сохранения текстового содержимого (включая заголовки)
     saveTextContent: function(textElement) {
         const item = textElement.closest('.item');
         if (!item) return false;
@@ -225,9 +260,14 @@ window.Items = {
         // Добавляем уникальный timestamp для предотвращения конфликтов
         itemData.timestamp = Date.now();
         
+        // Подробный лог для отладки
+        if (textElement.classList.contains('item-title')) {
+            console.log('Сохраняем title из saveTextContent:', itemData.title);
+        }
+        
         // Сохраняем в базу
         DB.saveItem(itemData);
-        console.log('Сохранен текст для элемента:', itemId);
+        console.log('Сохранен контент для элемента:', itemId);
         
         return true;
     }

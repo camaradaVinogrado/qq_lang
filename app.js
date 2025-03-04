@@ -197,12 +197,30 @@ window.App = {
             }
         });
         
+        // Добавляем этот дополнительный обработчик для надежности сохранения заголовка
+        document.addEventListener('keyup', function(e) {
+            if (e.target.classList.contains('item-title')) {
+                const item = e.target.closest('.item');
+                if (item) {
+                    // Сохраняем немедленно, без задержки
+                    const itemData = Items.createItemData(item);
+                    // Выводим подробную информацию для отладки
+                    console.log('Сохраняем заголовок при keyup:', 
+                        itemData.title, 'для элемента:', itemData.id);
+                    DB.saveItem(itemData);
+                }
+            }
+        });
+        
         // Отмечаем, что обработчики инициализированы
         this.eventHandlersInitialized = true;
     },
     
     // Загрузка элементов из базы данных
     loadItems: function() {
+        // Устанавливаем флаг, что идет начальная загрузка страницы
+        window.isInitialPageLoad = true;
+        
         DB.loadItems(function(itemsByColumn) {
             console.log("Загружено элементов из БД:", 
                 Object.values(itemsByColumn).reduce((acc, items) => acc + items.length, 0));
@@ -218,10 +236,7 @@ window.App = {
                 // Сначала очищаем контейнер от существующих элементов
                 itemsContainer.innerHTML = '';
                 
-                // Сначала сортируем элементы по порядку (order)
-                items.sort((a, b) => a.order - b.order);
-                
-                // Проверяем, что у всех элементов разные ID
+                // Отслеживаем уже обработанные ID для предотвращения дубликатов
                 const processedIds = new Set();
                 
                 items.forEach(itemData => {
@@ -274,32 +289,38 @@ window.App = {
                             });
                         }
                         
+                        // ВАЖНО: Устанавливаем заголовок ПЕРЕД добавлением элемента в DOM
+                        const titleElement = item.querySelector('.item-title');
+                        if (titleElement && itemData.title) {
+                            titleElement.innerHTML = itemData.title;
+                            console.log('Загружен заголовок:', itemData.title, 'для элемента:', itemData.id);
+                        }
+                        
                         // Устанавливаем обработчики для drag-and-drop
                         setupDragAndDrop(item, DB.db);
                         
                         // Добавляем элемент в контейнер
                         itemsContainer.appendChild(item);
-
-                        // Добавляем заголовок
-                        const titleElement = item.querySelector('.item-title');
-                        if (titleElement && itemData.title) {
-                            titleElement.innerHTML = itemData.title;
-                        }
                     } catch (error) {
                         console.error('Ошибка при создании элемента:', error, itemData);
                     }
                 });
             }
             
-            // Также проверим все ячейки при загрузке элементов
+            // После завершения загрузки всех элементов
             setTimeout(function() {
+                // Сбрасываем флаг загрузки страницы через небольшую задержку
+                window.isInitialPageLoad = false;
+                console.log('Начальная загрузка страницы завершена');
+                
+                // Существующий код для проверки multiline...
                 document.querySelectorAll('.text-cell div[contenteditable]').forEach(div => {
                     if (div.scrollHeight > div.clientHeight || div.innerHTML.includes('<br>') || 
                         div.innerHTML.includes('</div>')) {
                         div.classList.add('multiline');
                     }
                 });
-            }, 100);
+            }, 500);
         });
     },
     
