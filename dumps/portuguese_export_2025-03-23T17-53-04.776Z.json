@@ -1,0 +1,693 @@
+{
+  "dbName": "Portuguese",
+  "timestamp": "2025-03-23T17:53:04.772Z",
+  "version": 4,
+  "schema": {
+    "objectStores": [
+      {
+        "name": "counters",
+        "keyPath": "id",
+        "autoIncrement": false,
+        "indexes": []
+      },
+      {
+        "name": "items",
+        "keyPath": "id",
+        "autoIncrement": false,
+        "indexes": [
+          {
+            "name": "columnId",
+            "keyPath": "columnId",
+            "multiEntry": false,
+            "unique": false
+          },
+          {
+            "name": "order",
+            "keyPath": "order",
+            "multiEntry": false,
+            "unique": false
+          }
+        ]
+      }
+    ]
+  },
+  "stores": {
+    "counters": [
+      {
+        "id": "itemCounters",
+        "counters": {
+          "1": 11,
+          "2": 5,
+          "3": 9,
+          "4": 4,
+          "5": 2,
+          "6": 3,
+          "7": 0,
+          "8": 2
+        }
+      }
+    ],
+    "items": [
+      {
+        "id": "column1_item1",
+        "columnId": "1",
+        "title": "винительный падеж Я",
+        "textCells": [
+          "<b>mim</b>",
+          "",
+          "меня",
+          "<i>Verô, faz um café pra mim.</i>",
+          "",
+          ""
+        ],
+        "imageCells": [
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/portuguese/bom_dia_ver%C3%B4nica/1/1.png",
+          "",
+          ""
+        ],
+        "order": 4,
+        "timestamp": 1742484799517
+      },
+      {
+        "id": "column1_item10",
+        "columnId": "1",
+        "title": "родительный падеж",
+        "textCells": [
+          "<b>de + сущ</b>",
+          "<i>desse = de esse</i>",
+          "",
+          "<i>O que meu pai não ia gostar é de ver você me excluindo desse jeito.</i>",
+          "",
+          ""
+        ],
+        "imageCells": [
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/portuguese/bom_dia_ver%C3%B4nica/1/3.png",
+          "",
+          ""
+        ],
+        "order": 3,
+        "timestamp": 1742484799517
+      },
+      {
+        "id": "column1_item11",
+        "columnId": "1",
+        "title": "Эта",
+        "textCells": [
+          "<b>essa</b>",
+          "",
+          "",
+          "<i>Acertei dessa vez.</i>",
+          "",
+          ""
+        ],
+        "imageCells": [
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/portuguese/bom_dia_ver%C3%B4nica/1/4.png",
+          "",
+          ""
+        ],
+        "order": 10,
+        "timestamp": 1742485039088
+      },
+      {
+        "id": "column1_item2",
+        "columnId": "1",
+        "title": "Неопределенный артикль",
+        "textCells": [
+          "<span style=\"font-weight: 700; text-wrap: nowrap; background-color: rgb(240, 240, 240);\">um</span>",
+          "",
+          "",
+          "<i>Verô, faz um café pra mim.</i>",
+          "",
+          ""
+        ],
+        "imageCells": [
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/portuguese/bom_dia_ver%C3%B4nica/1/1.png",
+          "",
+          ""
+        ],
+        "order": 0,
+        "timestamp": 1742484799516
+      },
+      {
+        "id": "column1_item3",
+        "columnId": "1",
+        "title": "Определенный артикль Ж",
+        "textCells": [
+          "<b>a</b>",
+          "",
+          "",
+          "<i>A culpa não é sua, mulher.</i>",
+          "",
+          ""
+        ],
+        "imageCells": [
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/portuguese/bom_dia_ver%C3%B4nica/1/2.png",
+          "",
+          ""
+        ],
+        "order": 2,
+        "timestamp": 1742484799517
+      },
+      {
+        "id": "column1_item4",
+        "columnId": "1",
+        "title": "Определенный артикль M",
+        "textCells": [
+          "<b>o</b>",
+          "",
+          "",
+          "<i>O que meu pai não ia gostar é de ver você me excluindo desse jeito.</i>",
+          "",
+          ""
+        ],
+        "imageCells": [
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/portuguese/bom_dia_ver%C3%B4nica/1/3.png",
+          "",
+          ""
+        ],
+        "order": 1,
+        "timestamp": 1742484799516
+      },
+      {
+        "id": "column1_item5",
+        "columnId": "1",
+        "title": "Что",
+        "textCells": [
+          "<b>O que</b>",
+          "",
+          "",
+          "<i>O que meu pai não ia gostar é de ver você me excluindo desse jeito.</i><br>",
+          "",
+          ""
+        ],
+        "imageCells": [
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/portuguese/bom_dia_ver%C3%B4nica/1/3.png",
+          "",
+          ""
+        ],
+        "order": 7,
+        "timestamp": 1742484799518
+      },
+      {
+        "id": "column1_item6",
+        "columnId": "1",
+        "title": "Мой",
+        "textCells": [
+          "<b>meu</b>",
+          "",
+          "",
+          "<i>O que meu pai não ia gostar é de ver você me excluindo desse jeito.</i>",
+          "",
+          ""
+        ],
+        "imageCells": [
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/portuguese/bom_dia_ver%C3%B4nica/1/3.png",
+          "",
+          ""
+        ],
+        "order": 8,
+        "timestamp": 1742484799518
+      },
+      {
+        "id": "column1_item7",
+        "columnId": "1",
+        "title": "именительный падеж Ты",
+        "textCells": [
+          "você",
+          "",
+          "",
+          "<i>O que meu pai não ia gostar é de ver você me excluindo desse jeito.</i>",
+          "",
+          ""
+        ],
+        "imageCells": [
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/portuguese/bom_dia_ver%C3%B4nica/1/3.png",
+          "",
+          ""
+        ],
+        "order": 6,
+        "timestamp": 1742484799518
+      },
+      {
+        "id": "column1_item8",
+        "columnId": "1",
+        "title": "объектный падеж Я",
+        "textCells": [
+          "<b>me</b>",
+          "",
+          "меня",
+          "<i>O que meu pai não ia gostar é de ver você me excluindo desse jeito.</i>",
+          "",
+          ""
+        ],
+        "imageCells": [
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/portuguese/bom_dia_ver%C3%B4nica/1/3.png",
+          "",
+          ""
+        ],
+        "order": 5,
+        "timestamp": 1742484799517
+      },
+      {
+        "id": "column1_item9",
+        "columnId": "1",
+        "title": "<span style=\"text-wrap: wrap; background-color: rgb(255, 255, 255);\">Этот</span>",
+        "textCells": [
+          "<b>esse</b>",
+          "",
+          "",
+          "<i>O que meu pai não ia gostar é de ver você me excluindo desse jeito.</i>",
+          "",
+          ""
+        ],
+        "imageCells": [
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/portuguese/bom_dia_ver%C3%B4nica/1/3.png",
+          "",
+          ""
+        ],
+        "order": 9,
+        "timestamp": 1742484806446
+      },
+      {
+        "id": "column2_item1",
+        "columnId": "2",
+        "title": "Presente do Indicativo 3л. в роли Imperativo",
+        "textCells": [
+          "",
+          "<!-- notionvc: 41268115-afbe-4c40-8f3d-c18cf181faac -->",
+          "",
+          "<i>Verô, faz um café pra mim.</i>",
+          "<i>Cataloga pra segunda.</i>",
+          ""
+        ],
+        "imageCells": [
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/portuguese/bom_dia_ver%C3%B4nica/1/1.png",
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/portuguese/bom_dia_ver%C3%B4nica/1/5.png",
+          ""
+        ],
+        "order": 4,
+        "timestamp": 1742570835175
+      },
+      {
+        "id": "column2_item2",
+        "columnId": "2",
+        "title": "Presente do Indicativo в роли распростертого действия",
+        "textCells": [
+          "",
+          "",
+          "",
+          "<i>A culpa não é sua, mulher.</i>",
+          "<i>O que meu pai não ia gostar é de ver você me excluindo desse jeito.</i>",
+          ""
+        ],
+        "imageCells": [
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/portuguese/bom_dia_ver%C3%B4nica/1/2.png",
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/portuguese/bom_dia_ver%C3%B4nica/1/3.png",
+          ""
+        ],
+        "order": 2,
+        "timestamp": 1742484242337
+      },
+      {
+        "id": "column2_item3",
+        "columnId": "2",
+        "title": "Pretérito Imperfeito do Indicativo + ir в роли гипотетического прошлого",
+        "textCells": [
+          "<br>",
+          "ia/íamos/iam + inf",
+          "",
+          "<i>O que meu pai não ia gostar é de ver você me excluindo desse jeito.</i>",
+          "",
+          ""
+        ],
+        "imageCells": [
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/portuguese/bom_dia_ver%C3%B4nica/1/3.png",
+          "",
+          ""
+        ],
+        "order": 0,
+        "timestamp": 1742484622975
+      },
+      {
+        "id": "column2_item4",
+        "columnId": "2",
+        "title": "Gerúndio&nbsp;&nbsp;в роли процессного действия",
+        "textCells": [
+          "",
+          "-ando/-endo/-indo",
+          "",
+          "<i>O que meu pai não ia gostar é de ver você me excluindo desse jeito.</i>",
+          "",
+          ""
+        ],
+        "imageCells": [
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/portuguese/bom_dia_ver%C3%B4nica/1/3.png",
+          "",
+          ""
+        ],
+        "order": 3,
+        "timestamp": 1742484242338
+      },
+      {
+        "id": "column2_item5",
+        "columnId": "2",
+        "title": "Pretérito Perfeito в роли событийного прошлого&nbsp;",
+        "textCells": [
+          "<span style=\"font-weight: 700; text-wrap: nowrap; background-color: rgb(240, 240, 240);\">-ar</span>",
+          "-ei/-ou/-amos/-aram",
+          "",
+          "<i>Acertei dessa vez.</i>",
+          "",
+          ""
+        ],
+        "imageCells": [
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/portuguese/bom_dia_ver%C3%B4nica/1/4.png",
+          "",
+          ""
+        ],
+        "order": 1,
+        "timestamp": 1742485656059
+      },
+      {
+        "id": "column3_item2",
+        "columnId": "3",
+        "title": "fazer",
+        "textCells": [
+          "irreg",
+          "faço;faz;fazemos;fazem|same|fiz;fez;fizemos;fizeram|far+",
+          "",
+          "<i>Verô, faz um café pra mim.</i>",
+          "",
+          ""
+        ],
+        "imageCells": [
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/portuguese/bom_dia_ver%C3%B4nica/1/1.png",
+          "",
+          ""
+        ],
+        "order": 2,
+        "timestamp": 1742570614213
+      },
+      {
+        "id": "column3_item3",
+        "columnId": "3",
+        "title": "ser",
+        "textCells": [
+          "irreg",
+          "sou;é;somos;são|era;era;éramos;eram|fui;foi;fomos;foram",
+          "",
+          "<i>A culpa não é sua, mulher.</i>",
+          "",
+          ""
+        ],
+        "imageCells": [
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/portuguese/bom_dia_ver%C3%B4nica/1/2.png",
+          "",
+          ""
+        ],
+        "order": 3,
+        "timestamp": 1742570614213
+      },
+      {
+        "id": "column3_item6",
+        "columnId": "3",
+        "title": "ver",
+        "textCells": [
+          "irreg",
+          "vejo;vê;vemos;veem<sup id=\"cite_ref-10\" class=\"reference\"><a href=\"https://en.wikiversity.org/wiki/Brazilian_Portuguese/Verb_conjugation_table#cite_note-10\"><span class=\"cite-bracket\"></span></a></sup>||vi;viu;vimos;viram",
+          "",
+          "<i>O que meu pai não ia gostar é de ver você me excluindo desse jeito.</i>",
+          "",
+          ""
+        ],
+        "imageCells": [
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/portuguese/bom_dia_ver%C3%B4nica/1/3.png",
+          "",
+          ""
+        ],
+        "order": 4,
+        "timestamp": 1742570614213
+      },
+      {
+        "id": "column3_item7",
+        "columnId": "3",
+        "title": "excluir",
+        "textCells": [
+          "-ir",
+          "",
+          "",
+          "<i>O que meu pai não ia gostar é de ver você me excluindo desse jeito.</i>",
+          "",
+          ""
+        ],
+        "imageCells": [
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/portuguese/bom_dia_ver%C3%B4nica/1/3.png",
+          "",
+          ""
+        ],
+        "order": 1,
+        "timestamp": 1742570614213
+      },
+      {
+        "id": "column3_item9",
+        "columnId": "3",
+        "title": "catalogar",
+        "textCells": [
+          "-ar",
+          "",
+          "",
+          "<i>Cataloga pra segunda.</i>",
+          "",
+          ""
+        ],
+        "imageCells": [
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/portuguese/bom_dia_ver%C3%B4nica/1/5.png",
+          "",
+          ""
+        ],
+        "order": 0,
+        "timestamp": 1742570789409
+      },
+      {
+        "id": "column4_item1",
+        "columnId": "4",
+        "title": "para",
+        "textCells": [
+          "для (кого)",
+          "",
+          "",
+          "<i>Verô, faz um café pra mim.</i>",
+          "",
+          ""
+        ],
+        "imageCells": [
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/portuguese/bom_dia_ver%C3%B4nica/1/1.png",
+          "",
+          ""
+        ],
+        "order": 2,
+        "timestamp": 1742571019241
+      },
+      {
+        "id": "column4_item2",
+        "columnId": "4",
+        "title": "não&nbsp;",
+        "textCells": [
+          "<span style=\"text-wrap: nowrap; background-color: rgb(240, 240, 240);\">не</span>",
+          "<br>",
+          "",
+          "<i>A culpa não é sua, mulher.</i>",
+          "<i>O que meu pai não ia gostar é de ver você me excluindo desse jeito.</i>",
+          ""
+        ],
+        "imageCells": [
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/portuguese/bom_dia_ver%C3%B4nica/1/2.png",
+          "",
+          ""
+        ],
+        "order": 0,
+        "timestamp": 1742571019240
+      },
+      {
+        "id": "column4_item3",
+        "columnId": "4",
+        "title": "de",
+        "textCells": [
+          "от (чего)",
+          "",
+          "",
+          "<i>O que meu pai não ia gostar é de ver você me excluindo desse jeito.</i>",
+          "<i>Acertei dessa vez.</i>",
+          ""
+        ],
+        "imageCells": [
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/portuguese/bom_dia_ver%C3%B4nica/1/3.png",
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/portuguese/bom_dia_ver%C3%B4nica/1/4.png",
+          ""
+        ],
+        "order": 3,
+        "timestamp": 1742571019241
+      },
+      {
+        "id": "column4_item4",
+        "columnId": "4",
+        "title": "ó",
+        "textCells": [
+          "вот",
+          "",
+          "",
+          "<i>Aqui, ó.</i>",
+          "",
+          ""
+        ],
+        "imageCells": [
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/portuguese/bom_dia_ver%C3%B4nica/1/6.png",
+          "",
+          ""
+        ],
+        "order": 1,
+        "timestamp": 1742571110594
+      },
+      {
+        "id": "column5_item1",
+        "columnId": "5",
+        "title": "ir",
+        "textCells": [
+          "irreg",
+          "vou;vai;vamos;vão<sup id=\"cite_ref-6\" class=\"reference\"><a href=\"https://en.wikiversity.org/wiki/Brazilian_Portuguese/Verb_conjugation_table#cite_note-6\"><span class=\"cite-bracket\"></span></a></sup>|ia;ia;íamos;iam|fui;foi;fomos;foram",
+          "",
+          "<i>O que meu pai não ia gostar é de ver você me excluindo desse jeito.</i>",
+          "",
+          ""
+        ],
+        "imageCells": [
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/portuguese/bom_dia_ver%C3%B4nica/1/3.png",
+          "",
+          ""
+        ],
+        "order": 1,
+        "timestamp": 1742571063073
+      },
+      {
+        "id": "column5_item2",
+        "columnId": "5",
+        "title": "<span style=\"text-wrap: wrap; background-color: rgb(255, 255, 255);\">aqui</span>",
+        "textCells": [
+          "",
+          "",
+          "",
+          "Aqui, ó.",
+          "",
+          ""
+        ],
+        "imageCells": [
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/portuguese/bom_dia_ver%C3%B4nica/1/6.png",
+          "",
+          ""
+        ],
+        "order": 0,
+        "timestamp": 1742571108501
+      },
+      {
+        "id": "column6_item1",
+        "columnId": "6",
+        "title": "<span style=\"font-weight: 400; text-wrap: wrap; background-color: rgb(255, 255, 255);\"><b style=\"\">dessa vez</b></span>",
+        "textCells": [
+          "<br>",
+          "",
+          "<span style=\"text-wrap: nowrap; background-color: rgb(240, 240, 240);\">в этот раз</span>",
+          "<i>Acertei dessa vez.</i>",
+          "",
+          ""
+        ],
+        "imageCells": [
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/portuguese/bom_dia_ver%C3%B4nica/1/4.png",
+          "",
+          ""
+        ],
+        "order": 0,
+        "timestamp": 1742570725414
+      },
+      {
+        "id": "column6_item2",
+        "columnId": "6",
+        "title": "",
+        "textCells": [
+          "",
+          "",
+          "на",
+          "<i>Cataloga pra segunda.</i>",
+          "",
+          ""
+        ],
+        "imageCells": [
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/portuguese/bom_dia_ver%C3%B4nica/1/5.png",
+          "",
+          ""
+        ],
+        "order": 2,
+        "timestamp": 1742570780592
+      },
+      {
+        "id": "column6_item3",
+        "columnId": "6",
+        "title": "",
+        "textCells": [
+          "",
+          "=segunda-feira",
+          "пн",
+          "<i>Cataloga pra segunda.</i>",
+          "",
+          ""
+        ],
+        "imageCells": [
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/portuguese/bom_dia_ver%C3%B4nica/1/5.png",
+          "",
+          ""
+        ],
+        "order": 1,
+        "timestamp": 1742570839097
+      },
+      {
+        "id": "column8_item1",
+        "columnId": "8",
+        "title": "gostar",
+        "textCells": [
+          "-ar<br>",
+          "gostar de",
+          "",
+          "O que meu pai não ia gostar é de ver você me excluindo desse jeito.",
+          "",
+          ""
+        ],
+        "imageCells": [
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/portuguese/bom_dia_ver%C3%B4nica/1/3.png",
+          "",
+          ""
+        ],
+        "order": 1,
+        "timestamp": 1742484956576
+      },
+      {
+        "id": "column8_item2",
+        "columnId": "8",
+        "title": "acertar",
+        "textCells": [
+          "-ar",
+          "",
+          "",
+          "<i>Acertei dessa vez.</i>",
+          "",
+          ""
+        ],
+        "imageCells": [
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/portuguese/bom_dia_ver%C3%B4nica/1/4.png",
+          "",
+          ""
+        ],
+        "order": 0,
+        "timestamp": 1742485029904
+      }
+    ]
+  }
+}
