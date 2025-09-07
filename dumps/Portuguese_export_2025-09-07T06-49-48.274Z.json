@@ -1,0 +1,1473 @@
+{
+  "dbName": "Portuguese",
+  "timestamp": "2025-09-07T06:49:48.264Z",
+  "version": 4,
+  "schema": {
+    "objectStores": [
+      {
+        "name": "counters",
+        "keyPath": "id",
+        "autoIncrement": false,
+        "indexes": []
+      },
+      {
+        "name": "items",
+        "keyPath": "id",
+        "autoIncrement": false,
+        "indexes": [
+          {
+            "name": "columnId",
+            "keyPath": "columnId",
+            "multiEntry": false,
+            "unique": false
+          },
+          {
+            "name": "order",
+            "keyPath": "order",
+            "multiEntry": false,
+            "unique": false
+          }
+        ]
+      }
+    ]
+  },
+  "stores": {
+    "counters": [
+      {
+        "id": "itemCounters",
+        "counters": {
+          "1": 22,
+          "2": 9,
+          "3": 17,
+          "4": 10,
+          "5": 7,
+          "6": 7,
+          "7": 3,
+          "8": 5
+        }
+      }
+    ],
+    "items": [
+      {
+        "id": "column1_item1",
+        "columnId": "1",
+        "title": "Я дат. твор. пред.",
+        "textCells": [
+          "<b>pra mim</b>",
+          "",
+          "",
+          "<i>Verô, faz um café pra mim.</i>",
+          "",
+          ""
+        ],
+        "imageCells": [
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/portuguese/bom_dia_ver%C3%B4nica/1/1.png",
+          "",
+          ""
+        ],
+        "order": 10,
+        "timestamp": 1750141525426
+      },
+      {
+        "id": "column1_item10",
+        "columnId": "1",
+        "title": "родительный падеж",
+        "textCells": [
+          "<b>de + сущ</b>",
+          "<i>desse = de esse</i>",
+          "",
+          "<i>O que meu pai não ia gostar é de ver você me excluindo desse jeito.</i>",
+          "",
+          ""
+        ],
+        "imageCells": [
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/portuguese/bom_dia_ver%C3%B4nica/1/3.png",
+          "",
+          ""
+        ],
+        "order": 3,
+        "timestamp": 1750141525425
+      },
+      {
+        "id": "column1_item11",
+        "columnId": "1",
+        "title": "Эта",
+        "textCells": [
+          "<b>essa</b>",
+          "",
+          "",
+          "<i>Acertei dessa vez.</i>",
+          "",
+          ""
+        ],
+        "imageCells": [
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/portuguese/bom_dia_ver%C3%B4nica/1/4.png",
+          "",
+          ""
+        ],
+        "order": 17,
+        "timestamp": 1750141525426
+      },
+      {
+        "id": "column1_item12",
+        "columnId": "1",
+        "title": "Я им. вин. род.&nbsp;",
+        "textCells": [
+          "<b>eu</b>",
+          "<b>me</b>",
+          "",
+          "<i>Eu tô sendo cobrado por todo mundo!<br></i><i>Eu sou seca.</i><i><br></i>",
+          "<i>O que meu pai não ia gostar é de ver você me excluindo desse jeito.</i>",
+          ""
+        ],
+        "imageCells": [
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/portuguese/bom_dia_ver%C3%B4nica/3/1.png",
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/portuguese/bom_dia_ver%C3%B4nica/1/3.png",
+          ""
+        ],
+        "order": 9,
+        "timestamp": 1750141525426
+      },
+      {
+        "id": "column1_item13",
+        "columnId": "1",
+        "title": "творительный (кем)",
+        "textCells": [
+          "<b>por</b><b>&nbsp;+ сущ</b>",
+          "",
+          "",
+          "<i>Eu tô sendo cobrado por todo mundo!</i>",
+          "",
+          ""
+        ],
+        "imageCells": [
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/portuguese/bom_dia_ver%C3%B4nica/2/1.png",
+          "",
+          ""
+        ],
+        "order": 4,
+        "timestamp": 1750141525425
+      },
+      {
+        "id": "column1_item15",
+        "columnId": "1",
+        "title": "Он",
+        "textCells": [
+          "<b>ele</b>",
+          "",
+          "",
+          "<i>Ele tá agora numa academia lá em Moema.</i>",
+          "",
+          ""
+        ],
+        "imageCells": [
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/portuguese/bom_dia_ver%C3%B4nica/2/3.png",
+          "",
+          ""
+        ],
+        "order": 13,
+        "timestamp": 1750141525426
+      },
+      {
+        "id": "column1_item16",
+        "columnId": "1",
+        "title": "сущ Ж ед. дат. твор. пред.",
+        "textCells": [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "<i>Ele tá agora numa academia lá em Moema.</i>"
+        ],
+        "imageCells": [
+          "",
+          "",
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/portuguese/bom_dia_ver%C3%B4nica/2/3.png"
+        ],
+        "order": 7,
+        "timestamp": 1750141544427
+      },
+      {
+        "id": "column1_item17",
+        "columnId": "1",
+        "title": "сущ Ж ед. им. вин. род.",
+        "textCells": [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "<i>Ele deixa uma foto pra coagir as vítimas e vende as outras na internet.</i>"
+        ],
+        "imageCells": [
+          "",
+          "",
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/portuguese/bom_dia_ver%C3%B4nica/2/4.png"
+        ],
+        "order": 6,
+        "timestamp": 1750141525425
+      },
+      {
+        "id": "column1_item18",
+        "columnId": "1",
+        "title": "Определенный артикль мн",
+        "textCells": [
+          "<b>&nbsp;</b>",
+          "<b>&nbsp;</b><b>as</b>",
+          "",
+          "",
+          "<i>Ele deixa uma foto pra coagir as vítimas e vende as outras na internet.</i>",
+          ""
+        ],
+        "imageCells": [
+          "",
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/portuguese/bom_dia_ver%C3%B4nica/2/4.png",
+          ""
+        ],
+        "order": 2,
+        "timestamp": 1750141525425
+      },
+      {
+        "id": "column1_item19",
+        "columnId": "1",
+        "title": "outro",
+        "textCells": [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "<i>Ele deixa uma foto pra coagir as vítimas e vende as outras na internet.</i>"
+        ],
+        "imageCells": [
+          "",
+          "",
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/portuguese/bom_dia_ver%C3%B4nica/2/4.png"
+        ],
+        "order": 18,
+        "timestamp": 1750141525426
+      },
+      {
+        "id": "column1_item2",
+        "columnId": "1",
+        "title": "Неопределенный артикль&nbsp;",
+        "textCells": [
+          "<span style=\"font-weight: 700; text-wrap: nowrap; background-color: rgb(240, 240, 240);\">um</span>",
+          "<b>uma</b>",
+          "<b>numa = em + uma</b>",
+          "<i>Verô, faz um café pra mim.<br></i><i>E faz um bom dinheiro com isso.</i><i><br></i>",
+          "<i>Uma polaroide?</i>",
+          "<i>Ele tá agora numa academia lá em Moema.</i>"
+        ],
+        "imageCells": [
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/portuguese/bom_dia_ver%C3%B4nica/2/5.png",
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/portuguese/bom_dia_ver%C3%B4nica/2/2.png",
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/portuguese/bom_dia_ver%C3%B4nica/2/3.png"
+        ],
+        "order": 0,
+        "timestamp": 1750141525424
+      },
+      {
+        "id": "column1_item20",
+        "columnId": "1",
+        "title": "прил ед. Ж",
+        "textCells": [
+          "",
+          "",
+          "",
+          "<i>Eu sou seca.</i>",
+          "<br>",
+          ""
+        ],
+        "imageCells": [
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/portuguese/bom_dia_ver%C3%B4nica/3/1.png",
+          "",
+          ""
+        ],
+        "order": 8,
+        "timestamp": 1750141525425
+      },
+      {
+        "id": "column1_item21",
+        "columnId": "1",
+        "title": "Мы",
+        "textCells": [
+          "a gente = мы как субъект в 3 л.",
+          "",
+          "",
+          "<i>A gente marcou com o suspeito às Três da tarde em ponto na rua Formosa, Vale do Anhangabaú.</i>",
+          "",
+          ""
+        ],
+        "imageCells": [
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/portuguese/bom_dia_ver%C3%B4nica/3/3.png",
+          "",
+          ""
+        ],
+        "order": 11,
+        "timestamp": 1750142287535
+      },
+      {
+        "id": "column1_item22",
+        "columnId": "1",
+        "title": "сущ М ед. дат. твор. пред.",
+        "textCells": [
+          "",
+          "<b>com</b>",
+          "",
+          "",
+          "<i>A gente marcou com o suspeito às Três da tarde em ponto na rua Formosa, Vale do Anhangabaú.</i>",
+          ""
+        ],
+        "imageCells": [
+          "",
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/portuguese/bom_dia_ver%C3%B4nica/3/3.png",
+          ""
+        ],
+        "order": 5,
+        "timestamp": 1750142282384
+      },
+      {
+        "id": "column1_item4",
+        "columnId": "1",
+        "title": "Определенный артикль",
+        "textCells": [
+          "<b>o</b>",
+          "<b>a</b>",
+          "",
+          "<i>O que meu pai não ia gostar é de ver você me excluindo desse jeito.<br></i><i>A gente marcou com o suspeito às Três da tarde em ponto na rua Formosa, Vale do Anhangabaú.</i><i><br></i>",
+          "<i>A culpa não é sua, mulher.</i>",
+          ""
+        ],
+        "imageCells": [
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/portuguese/bom_dia_ver%C3%B4nica/1/3.png",
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/portuguese/bom_dia_ver%C3%B4nica/1/2.png",
+          ""
+        ],
+        "order": 1,
+        "timestamp": 1750141525425
+      },
+      {
+        "id": "column1_item5",
+        "columnId": "1",
+        "title": "Что",
+        "textCells": [
+          "<b>O que</b>",
+          "",
+          "",
+          "<i>O que meu pai não ia gostar é de ver você me excluindo desse jeito.</i><br>",
+          "",
+          ""
+        ],
+        "imageCells": [
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/portuguese/bom_dia_ver%C3%B4nica/1/3.png",
+          "",
+          ""
+        ],
+        "order": 14,
+        "timestamp": 1750141525426
+      },
+      {
+        "id": "column1_item6",
+        "columnId": "1",
+        "title": "Мой",
+        "textCells": [
+          "<b>meu</b>",
+          "",
+          "",
+          "<i>O que meu pai não ia gostar é de ver você me excluindo desse jeito.</i>",
+          "",
+          ""
+        ],
+        "imageCells": [
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/portuguese/bom_dia_ver%C3%B4nica/1/3.png",
+          "",
+          ""
+        ],
+        "order": 15,
+        "timestamp": 1750141525426
+      },
+      {
+        "id": "column1_item7",
+        "columnId": "1",
+        "title": "Ты",
+        "textCells": [
+          "você",
+          "",
+          "",
+          "<i>O que meu pai não ia gostar é de ver você me excluindo desse jeito.</i>",
+          "",
+          ""
+        ],
+        "imageCells": [
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/portuguese/bom_dia_ver%C3%B4nica/1/3.png",
+          "",
+          ""
+        ],
+        "order": 12,
+        "timestamp": 1750141525426
+      },
+      {
+        "id": "column1_item9",
+        "columnId": "1",
+        "title": "<span style=\"text-wrap: wrap; background-color: rgb(255, 255, 255);\">Этот</span>",
+        "textCells": [
+          "<b>esse</b>",
+          "",
+          "",
+          "<i>O que meu pai não ia gostar é de ver você me excluindo desse jeito.</i>",
+          "",
+          ""
+        ],
+        "imageCells": [
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/portuguese/bom_dia_ver%C3%B4nica/1/3.png",
+          "",
+          ""
+        ],
+        "order": 16,
+        "timestamp": 1750141525426
+      },
+      {
+        "id": "column2_item1",
+        "columnId": "2",
+        "title": "Presente do Indicativo, отличное от imperativo, в роли императива",
+        "textCells": [
+          "",
+          "<!-- notionvc: 41268115-afbe-4c40-8f3d-c18cf181faac -->",
+          "",
+          "<i>-</i>",
+          "<i>Verô, faz um café pra mim.</i>",
+          ""
+        ],
+        "imageCells": [
+          "",
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/portuguese/bom_dia_ver%C3%B4nica/1/1.png",
+          ""
+        ],
+        "order": 7,
+        "timestamp": 1750329496189
+      },
+      {
+        "id": "column2_item3",
+        "columnId": "2",
+        "title": "Pretérito Imperfeito do Indicativo ir + inf в роли гипотетического прошлого",
+        "textCells": [
+          "<br>",
+          "",
+          "",
+          "<i>-</i>",
+          "<i>O que meu pai não ia gostar é de ver você me excluindo desse jeito.</i>",
+          ""
+        ],
+        "imageCells": [
+          "",
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/portuguese/bom_dia_ver%C3%B4nica/1/3.png",
+          ""
+        ],
+        "order": 0,
+        "timestamp": 1749711438226
+      },
+      {
+        "id": "column2_item4",
+        "columnId": "2",
+        "title": "Gerúndio&nbsp;&nbsp;в роли настоящего процессного действия",
+        "textCells": [
+          "",
+          "-ando/-endo/-indo",
+          "",
+          "<i>-</i>",
+          "<i>O que meu pai não ia gostar é de ver você me excluindo desse jeito.</i>",
+          ""
+        ],
+        "imageCells": [
+          "",
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/portuguese/bom_dia_ver%C3%B4nica/1/3.png",
+          ""
+        ],
+        "order": 4,
+        "timestamp": 1749711438227
+      },
+      {
+        "id": "column2_item5",
+        "columnId": "2",
+        "title": "Pretérito Perfeito в роли свершившегося действия",
+        "textCells": [
+          "",
+          "",
+          "",
+          "<i>Acertei dessa vez.</i>",
+          "<i>A gente marcou com o suspeito às Três da tarde em ponto na rua Formosa, Vale do Anhangabaú.</i>",
+          ""
+        ],
+        "imageCells": [
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/portuguese/bom_dia_ver%C3%B4nica/1/4.png",
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/portuguese/bom_dia_ver%C3%B4nica/3/3.png",
+          ""
+        ],
+        "order": 1,
+        "timestamp": 1750142291008
+      },
+      {
+        "id": "column2_item6",
+        "columnId": "2",
+        "title": "<span style=\"text-wrap: wrap; background-color: rgb(255, 255, 255);\">Voz Passiva Analítica</span><span style=\"font-weight: 400; text-wrap: wrap; background-color: rgb(255, 255, 255);\">&nbsp;</span>в роли настоящего процессного действия",
+        "textCells": [
+          "estar + sendo + Particípio Passado",
+          "",
+          "",
+          "<i>Eu tô sendo cobrado por todo mundo!</i>",
+          "",
+          ""
+        ],
+        "imageCells": [
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/portuguese/bom_dia_ver%C3%B4nica/2/1.png",
+          "",
+          ""
+        ],
+        "order": 5,
+        "timestamp": 1749711438227
+      },
+      {
+        "id": "column2_item7",
+        "columnId": "2",
+        "title": "Presente do Indicativo в роли настоящего распростертого действия&nbsp;",
+        "textCells": [
+          "",
+          "",
+          "",
+          "<i>Eu sou seca.</i>",
+          "<i>A culpa não é sua, mulher.</i>",
+          ""
+        ],
+        "imageCells": [
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/portuguese/bom_dia_ver%C3%B4nica/3/1.png",
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/portuguese/bom_dia_ver%C3%B4nica/1/2.png",
+          ""
+        ],
+        "order": 3,
+        "timestamp": 1749711438227
+      },
+      {
+        "id": "column2_item8",
+        "columnId": "2",
+        "title": "Imperativo",
+        "textCells": [
+          "",
+          "",
+          "",
+          "",
+          "<i>Desculpa, amor.</i>",
+          ""
+        ],
+        "imageCells": [
+          "",
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/portuguese/bom_dia_ver%C3%B4nica/3/4.png",
+          ""
+        ],
+        "order": 6,
+        "timestamp": 1750330269456
+      },
+      {
+        "id": "column2_item9",
+        "columnId": "2",
+        "title": "Pretérito Perfeito в роли прошедшего распостертого действия",
+        "textCells": [
+          "",
+          "",
+          "",
+          "<i>Fiquei tão orgulhosa, Nete!</i>",
+          "",
+          ""
+        ],
+        "imageCells": [
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/portuguese/bom_dia_ver%C3%B4nica/3/2.png",
+          "",
+          ""
+        ],
+        "order": 2,
+        "timestamp": 1749711983318
+      },
+      {
+        "id": "column3_item10",
+        "columnId": "3",
+        "title": "estar (irreg)",
+        "textCells": [
+          "<span style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\">estivera estava</span><br style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\"><span style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\">estive estado</span><br style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\"><font color=\"#404040\" face=\"DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Noto Sans, Ubuntu, Cantarell, Helvetica Neue, Oxygen, Open Sans, sans-serif\"><span style=\"font-size: 16.002px;\">estou(tô)&nbsp;estando</span></font><br style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\"><span style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\">esteja estivesse</span><br style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\"><span style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\">— estarei</span><br style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\"><span style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\">estaria estiver<br></span><br><span style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\">estivéramos estávamos</span><br style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\"><span style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\">estivemos estado</span><br style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\"><span style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\">estamos estando</span><br style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\"><span style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\">estejamos estivéssemos</span><br style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\"><span style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\">estejamos estaremos</span><br style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\"><span style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\">estaríamos estivermos</span><br>",
+          "<span style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\">estivera estava</span><br style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\"><span style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\">esteve estado</span><br style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\"><span style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\">está(</span><span style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\">tá)</span><span style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\">&nbsp;estando</span><br style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\"><span style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\">esteja estivesse</span><br style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\"><span style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\">esteja estará</span><br style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\"><span style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\">estaria estiver</span>",
+          "<span style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\">estiveram estavam</span><br style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\"><span style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\">estiveram estado</span><br style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\"><span style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\">estão estando</span><br style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\"><span style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\">estejam estivessem</span><br style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\"><span style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\">estejam estarão</span><br style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\"><span style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\">estariam estiverem</span><br>",
+          "<i>Eu tô sendo cobrado por todo mundo!</i>",
+          "",
+          ""
+        ],
+        "imageCells": [
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/portuguese/bom_dia_ver%C3%B4nica/2/1.png",
+          "",
+          ""
+        ],
+        "order": 4,
+        "timestamp": 1750141230351
+      },
+      {
+        "id": "column3_item12",
+        "columnId": "3",
+        "title": "bater",
+        "textCells": [
+          "<div>batera batia</div><div>bati batido</div><div>bato batendo</div><div>bata batesse</div><div>- baterei</div><div>bateria bater<br><br><div>batêramos batíamos</div><div>batemos batido</div><div>batemos batendo</div><div>batamos batêssemos</div><div>batamos bateremos</div><div>bateríamos batermos</div></div>",
+          "<div>batera batia</div><div>bateu batido</div><div>bate batendo</div><div>bata batesse</div><div>bate baterá</div><div>bateria bater</div>",
+          "<div>bateram batiam<br></div><div><div>bateram batido</div><div>batem batendo</div><div>batam batessem</div><div>batam baterão</div><div>bateriam baterem</div></div>",
+          "",
+          "",
+          ""
+        ],
+        "imageCells": [
+          "",
+          "",
+          ""
+        ],
+        "order": 0,
+        "timestamp": 1750141230350
+      },
+      {
+        "id": "column3_item13",
+        "columnId": "3",
+        "title": "deixar",
+        "textCells": [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "<i>Ele deixa uma foto pra coagir as vítimas e vende as outras na internet.</i>"
+        ],
+        "imageCells": [
+          "",
+          "",
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/portuguese/bom_dia_ver%C3%B4nica/2/4.png"
+        ],
+        "order": 3,
+        "timestamp": 1750141230351
+      },
+      {
+        "id": "column3_item14",
+        "columnId": "3",
+        "title": "coagir",
+        "textCells": [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "<i>Ele deixa uma foto pra coagir as vítimas e vende as outras na internet.</i>"
+        ],
+        "imageCells": [
+          "",
+          "",
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/portuguese/bom_dia_ver%C3%B4nica/2/4.png"
+        ],
+        "order": 2,
+        "timestamp": 1750141230350
+      },
+      {
+        "id": "column3_item15",
+        "columnId": "3",
+        "title": "vender",
+        "textCells": [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "<i>Ele deixa uma foto pra coagir as vítimas e vende as outras na internet.</i>"
+        ],
+        "imageCells": [
+          "",
+          "",
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/portuguese/bom_dia_ver%C3%B4nica/2/4.png"
+        ],
+        "order": 10,
+        "timestamp": 1750141425209
+      },
+      {
+        "id": "column3_item16",
+        "columnId": "3",
+        "title": "parar",
+        "textCells": [
+          "",
+          "",
+          "",
+          "",
+          "<i>Parou.</i>",
+          ""
+        ],
+        "imageCells": [
+          "",
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/portuguese/bom_dia_ver%C3%B4nica/2/6.png",
+          ""
+        ],
+        "order": 8,
+        "timestamp": 1750141230352
+      },
+      {
+        "id": "column3_item17",
+        "columnId": "3",
+        "title": "marcar",
+        "textCells": [
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "imageCells": [
+          "",
+          "",
+          ""
+        ],
+        "order": 7,
+        "timestamp": 1750141266578
+      },
+      {
+        "id": "column3_item2",
+        "columnId": "3",
+        "title": "fazer (irreg)",
+        "textCells": [
+          "<span style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\">fizera fazia</span><br style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\"><span style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\">fiz feito</span><br style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\"><span style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\">faço fazendo</span><br style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\"><span style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\">faça fizesse</span><br style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\"><span style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\">— farei</span><br style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\"><span style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\">faria fazer<br><br></span><span style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\">fizéramos fazíamos</span><br style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\"><span style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\">fizemos feito</span><br style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\"><span style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\">fazemos fazendo</span><br style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\"><span style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\">façamos fizéssemos</span><br style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\"><span style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\">façamos faremos</span><br style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\"><span style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\">faríamos fizermos</span><span style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\"><br></span>",
+          "<span style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\">fizera fazia</span><br style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\"><span style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\">fez feito</span><br style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\"><span style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\">faz fazendo</span><br style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\"><span style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\">faça fizesse</span><br style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\"><span style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\">faça fará</span><br style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\"><span style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\">faria fazer</span>",
+          "<span style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\">fizeram faziam</span><br style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\"><span style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\">fizeram feito</span><br style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\"><span style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\">fazem fazendo</span><br style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\"><span style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\">façam fizessem</span><br style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\"><span style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\">façam farão</span><br style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\"><span style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\">fariam fizerem</span><span style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\"><br></span>",
+          "<i>Verô, faz um café pra mim.</i>",
+          "",
+          "<i>E faz um bom dinheiro com isso.</i>"
+        ],
+        "imageCells": [
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/portuguese/bom_dia_ver%C3%B4nica/1/1.png",
+          "",
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/portuguese/bom_dia_ver%C3%B4nica/2/5.png"
+        ],
+        "order": 6,
+        "timestamp": 1750141230352
+      },
+      {
+        "id": "column3_item3",
+        "columnId": "3",
+        "title": "ser (irreg)",
+        "textCells": [
+          "<span style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\">fora era</span><br style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\"><span style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\">fui sido</span><br style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\"><span style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\">sou sendo</span><br style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\"><span style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\">seja fosse</span><br style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\"><span style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\">— serei</span><br style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\"><span style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\">seria ser<br><br></span><span style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\">fôramos éramos</span><br style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\"><span style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\">fomos sido</span><br style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\"><span style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\">somos sendo</span><br style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\"><span style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\">sejamos fôssemos</span><br style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\"><span style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\">sejamos seremos</span><br style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\"><span style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\">seríamos sermos</span><span style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\"><br></span>",
+          "<span style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\">fora era</span><br style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\"><span style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\">foi sido</span><br style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\"><span style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\">é sendo</span><br style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\"><span style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\">seja fosse</span><br style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\"><span style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\">seja será</span><br style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\"><span style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\">seria ser</span>",
+          "<span style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\">foram eram</span><br style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\"><span style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\">foram sido</span><br style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\"><span style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\">são sendo</span><br style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\"><span style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\">sejam fossem</span><br style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\"><span style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\">sejam serão</span><br style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\"><span style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\">seriam serem</span><span style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\"><br></span>",
+          "<i>A culpa não é sua, mulher.</i>",
+          "",
+          ""
+        ],
+        "imageCells": [
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/portuguese/bom_dia_ver%C3%B4nica/1/2.png",
+          "",
+          ""
+        ],
+        "order": 9,
+        "timestamp": 1750141230352
+      },
+      {
+        "id": "column3_item6",
+        "columnId": "3",
+        "title": "ver (irreg)",
+        "textCells": [
+          "<span style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\">vira via</span><br style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\"><span style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\">vi visto</span><br style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\"><span style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\">vejo vendo</span><br style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\"><span style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\">veja visse</span><br style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\"><span style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\">— verei</span><br style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\"><span style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\">veria ver<br><br></span><span style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\">víramos víamos</span><br style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\"><span style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\">vimos visto</span><br style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\"><span style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\">vemos vendo</span><br style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\"><span style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\">vejamos víssemos</span><br style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\"><span style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\">vejamos veremos</span><br style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\"><span style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\">veríamos vermos</span><span style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\"><br></span>",
+          "<span style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\">vira via</span><br style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\"><span style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\">viu visto</span><br style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\"><span style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\">vê vendo</span><br style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\"><span style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\">veja visse</span><br style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\"><span style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\">veja verá</span><br style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\"><span style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\">veria ver</span>",
+          "<span style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\">viram viam</span><br style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\"><span style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\">viram visto</span><br style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\"><span style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\">veem vendo</span><br style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\"><span style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\">vejam vissem</span><br style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\"><span style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\">vejam verão</span><br style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\"><span style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\">veriam verem</span><span style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\"><br></span>",
+          "<i>O que meu pai não <br>ia gostar é de ver você me excluindo desse jeito.</i>",
+          "",
+          ""
+        ],
+        "imageCells": [
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/portuguese/bom_dia_ver%C3%B4nica/1/3.png",
+          "",
+          ""
+        ],
+        "order": 11,
+        "timestamp": 1750141230353
+      },
+      {
+        "id": "column3_item7",
+        "columnId": "3",
+        "title": "excluir",
+        "textCells": [
+          "<div>excluíra excluía</div><div>excluí excluído</div><div>excluo excluindo</div><div>exclua excluísse</div><div>- excluirei</div><div>excluiria excluir<br><br><div>excluíramos excluíamos</div><div>excluímos excluído</div><div>excluímos excluindo</div><div>excluamos excluíssemos</div><div>excluamos excluiremos</div><div>excluiríamos excluirmos</div></div>",
+          "<div>excluíra excluía</div><div>excluiu excluído</div><div>exclui excluindo</div><div>exclua excluísse</div><div>exclui excluirá</div><div>excluiria excluir</div>",
+          "<div>excluíram excluíam<br></div><div><div>excluíram excluído</div><div>excluem excluindo</div><div>excluam excluíssem</div><div>excluam excluirão</div><div>excluiriam excluírem</div></div>",
+          "<i>----------------------------------------</i>",
+          "<i>O que meu pai não ia gostar<br>&nbsp;é de ver você me excluindo desse jeito.</i>",
+          "<i>---------------------------------------</i>"
+        ],
+        "imageCells": [
+          "",
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/portuguese/bom_dia_ver%C3%B4nica/1/3.png",
+          ""
+        ],
+        "order": 5,
+        "timestamp": 1750141230351
+      },
+      {
+        "id": "column3_item9",
+        "columnId": "3",
+        "title": "catalogar",
+        "textCells": [
+          "catalogara&nbsp;catalogava<br>cataloguei&nbsp;catalogado<br>catalogo&nbsp;catalogando<br>catalogue&nbsp;catalogasse<br><div>-&nbsp;catalogarei<br>catalogaria&nbsp;catalogar<br><br><div>catalogáramos catalogávamos</div><div>catalogamos catalogado</div><div>catalogamos catalogando</div><div>cataloguemos catalogássemos</div><div>cataloguemos catalogaremos</div><div>catalogaríamos catalogarmos</div></div>",
+          "<div>catalogara catalogava</div><div>catalogou catalogado</div><div>cataloga catalogando</div><div>catalogue catalogasse</div><div>cataloga catalogará</div><div>catalogaria catalogar</div>",
+          "<div>catalogaram catalogavam<br></div><div><div>catalogaram catalogado</div><div>catalogam catalogando</div><div>cataloguem catalogassem</div><div>cataloguem catalogarão</div><div>catalogariam catalogarem</div></div>",
+          "<i>-</i>",
+          "<i>Cataloga pra segunda.</i>",
+          ""
+        ],
+        "imageCells": [
+          "",
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/portuguese/bom_dia_ver%C3%B4nica/1/5.png",
+          ""
+        ],
+        "order": 1,
+        "timestamp": 1750141230350
+      },
+      {
+        "id": "column4_item1",
+        "columnId": "4",
+        "title": "para (pra)",
+        "textCells": [
+          "для (кого)",
+          "",
+          "",
+          "<i>Verô, faz um café pra mim.</i>",
+          "",
+          ""
+        ],
+        "imageCells": [
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/portuguese/bom_dia_ver%C3%B4nica/1/1.png",
+          "",
+          ""
+        ],
+        "order": 6,
+        "timestamp": 1750141397749
+      },
+      {
+        "id": "column4_item10",
+        "columnId": "4",
+        "title": "com",
+        "textCells": [
+          "",
+          "",
+          "",
+          "",
+          "<i>A gente marcou com o suspeito às Três da tarde em ponto na rua Formosa, Vale do Anhangabaú.</i>",
+          ""
+        ],
+        "imageCells": [
+          "",
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/portuguese/bom_dia_ver%C3%B4nica/3/3.png",
+          ""
+        ],
+        "order": 3,
+        "timestamp": 1750142296305
+      },
+      {
+        "id": "column4_item2",
+        "columnId": "4",
+        "title": "não&nbsp;",
+        "textCells": [
+          "<span style=\"text-wrap: nowrap; background-color: rgb(240, 240, 240);\">не</span>",
+          "<br>",
+          "",
+          "<i>A culpa não é sua, mulher.</i>",
+          "<i>O que meu pai não ia gostar é de ver você me excluindo desse jeito.</i>",
+          ""
+        ],
+        "imageCells": [
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/portuguese/bom_dia_ver%C3%B4nica/1/2.png",
+          "",
+          ""
+        ],
+        "order": 0,
+        "timestamp": 1750141397748
+      },
+      {
+        "id": "column4_item3",
+        "columnId": "4",
+        "title": "de",
+        "textCells": [
+          "от (чего)",
+          "",
+          "",
+          "<i>O que meu pai não ia gostar é de ver você me excluindo desse jeito.</i>",
+          "<br>",
+          ""
+        ],
+        "imageCells": [
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/portuguese/bom_dia_ver%C3%B4nica/1/3.png",
+          "",
+          ""
+        ],
+        "order": 4,
+        "timestamp": 1750141397748
+      },
+      {
+        "id": "column4_item4",
+        "columnId": "4",
+        "title": "ó",
+        "textCells": [
+          "вот",
+          "",
+          "",
+          "<i>Aqui, ó.</i>",
+          "",
+          ""
+        ],
+        "imageCells": [
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/portuguese/bom_dia_ver%C3%B4nica/1/6.png",
+          "",
+          ""
+        ],
+        "order": 1,
+        "timestamp": 1750141397748
+      },
+      {
+        "id": "column4_item5",
+        "columnId": "4",
+        "title": "para (pra)",
+        "textCells": [
+          "(для того, чтобы)",
+          "",
+          "",
+          "",
+          "",
+          "<i>Ele deixa uma foto pra coagir as vítimas e vende as outras na internet.</i>"
+        ],
+        "imageCells": [
+          "",
+          "",
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/portuguese/bom_dia_ver%C3%B4nica/2/4.png"
+        ],
+        "order": 7,
+        "timestamp": 1750141397749
+      },
+      {
+        "id": "column4_item6",
+        "columnId": "4",
+        "title": "e",
+        "textCells": [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "<i>Ele deixa uma foto pra coagir as vítimas e vende as outras na internet.</i>"
+        ],
+        "imageCells": [
+          "",
+          "",
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/portuguese/bom_dia_ver%C3%B4nica/2/4.png"
+        ],
+        "order": 9,
+        "timestamp": 1750141397749
+      },
+      {
+        "id": "column4_item7",
+        "columnId": "4",
+        "title": "em (где)",
+        "textCells": [
+          "",
+          "",
+          "na = em + a",
+          "",
+          "",
+          "<i>Ele deixa uma foto pra coagir as vítimas e vende as outras na internet.</i>"
+        ],
+        "imageCells": [
+          "",
+          "",
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/portuguese/bom_dia_ver%C3%B4nica/2/4.png"
+        ],
+        "order": 5,
+        "timestamp": 1750141397749
+      },
+      {
+        "id": "column4_item8",
+        "columnId": "4",
+        "title": "com isso",
+        "textCells": [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "<i>E faz um bom dinheiro com isso.</i>"
+        ],
+        "imageCells": [
+          "",
+          "",
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/portuguese/bom_dia_ver%C3%B4nica/2/5.png"
+        ],
+        "order": 8,
+        "timestamp": 1750141397749
+      },
+      {
+        "id": "column4_item9",
+        "columnId": "4",
+        "title": "tão",
+        "textCells": [
+          "",
+          "",
+          "",
+          "<i>Fiquei tão orgulhosa, Nete!</i>",
+          "",
+          ""
+        ],
+        "imageCells": [
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/portuguese/bom_dia_ver%C3%B4nica/3/2.png",
+          "",
+          ""
+        ],
+        "order": 2,
+        "timestamp": 1750141397748
+      },
+      {
+        "id": "column5_item1",
+        "columnId": "5",
+        "title": "ir (irreg)",
+        "textCells": [
+          "<span style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\">fora ia</span><br style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\"><span style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\">fui ido</span><br style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\"><span style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\">vou indo</span><br style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\"><span style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\">vá fosse</span><br style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\"><span style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\">— irei</span><br style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\"><span style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\">iria ir<br><br></span><span style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\">fôramos íamos</span><br style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\"><span style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\">fomos ido</span><br style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\"><span style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\">vamos indo</span><br style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\"><span style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\">vamos fôssemos</span><br style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\"><span style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\">vamos iremos</span><br style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\"><span style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\">iríamos irmos</span><span style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\"><br></span>",
+          "<span style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\">fora ia</span><br style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\"><span style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\">foi ido</span><br style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\"><span style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\">vai indo</span><br style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\"><span style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\">vá fosse</span><br style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\"><span style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\">vá irá</span><br style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\"><span style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\">iria ir</span>",
+          "<span style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\">foram iam</span><br style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\"><span style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\">foram ido</span><br style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\"><span style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\">vão indo</span><br style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\"><span style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\">vão fossem</span><br style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\"><span style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\">vão irão</span><br style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\"><span style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\">iriam irem</span><span style=\"color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Oxygen, &quot;Open Sans&quot;, sans-serif; font-size: 16.002px;\"><br></span>",
+          "<i>O que meu pai não ia gostar <br>é de ver você me excluindo desse jeito.</i>",
+          "",
+          ""
+        ],
+        "imageCells": [
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/portuguese/bom_dia_ver%C3%B4nica/1/3.png",
+          "",
+          ""
+        ],
+        "order": 6,
+        "timestamp": 1750142199924
+      },
+      {
+        "id": "column5_item2",
+        "columnId": "5",
+        "title": "<span style=\"text-wrap: wrap; background-color: rgb(255, 255, 255);\">aqui</span>",
+        "textCells": [
+          "",
+          "",
+          "",
+          "Aqui, ó.",
+          "",
+          ""
+        ],
+        "imageCells": [
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/portuguese/bom_dia_ver%C3%B4nica/1/6.png",
+          "",
+          ""
+        ],
+        "order": 0,
+        "timestamp": 1750142199923
+      },
+      {
+        "id": "column5_item3",
+        "columnId": "5",
+        "title": "estar",
+        "textCells": [
+          "",
+          "",
+          "",
+          "",
+          "<i>Ele tá agora numa academia lá em Moema.</i>",
+          ""
+        ],
+        "imageCells": [
+          "",
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/portuguese/bom_dia_ver%C3%B4nica/2/3.png",
+          ""
+        ],
+        "order": 5,
+        "timestamp": 1750142199924
+      },
+      {
+        "id": "column5_item4",
+        "columnId": "5",
+        "title": "lá",
+        "textCells": [
+          "",
+          "",
+          "там",
+          "",
+          "<i>Ele tá agora numa academia lá em Moema.</i>",
+          ""
+        ],
+        "imageCells": [
+          "",
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/portuguese/bom_dia_ver%C3%B4nica/2/3.png",
+          ""
+        ],
+        "order": 1,
+        "timestamp": 1750142199923
+      },
+      {
+        "id": "column5_item5",
+        "columnId": "5",
+        "title": "em",
+        "textCells": [
+          "",
+          "",
+          "в районе",
+          "",
+          "<i>Ele tá agora numa academia lá em Moema.</i>",
+          ""
+        ],
+        "imageCells": [
+          "",
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/portuguese/bom_dia_ver%C3%B4nica/2/3.png",
+          ""
+        ],
+        "order": 2,
+        "timestamp": 1750142199923
+      },
+      {
+        "id": "column5_item6",
+        "columnId": "5",
+        "title": "na (em + a)",
+        "textCells": [
+          "",
+          "",
+          "",
+          "",
+          "<i>A gente marcou com o suspeito às Três da tarde em ponto na rua Formosa, Vale do Anhangabaú.</i>",
+          ""
+        ],
+        "imageCells": [
+          "",
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/portuguese/bom_dia_ver%C3%B4nica/3/3.png",
+          ""
+        ],
+        "order": 3,
+        "timestamp": 1750142299852
+      },
+      {
+        "id": "column5_item7",
+        "columnId": "5",
+        "title": "rua",
+        "textCells": [
+          "",
+          "",
+          "",
+          "",
+          "<i>A gente marcou com o suspeito às Três da tarde em ponto na rua Formosa, Vale do Anhangabaú.</i>",
+          ""
+        ],
+        "imageCells": [
+          "",
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/portuguese/bom_dia_ver%C3%B4nica/3/3.png",
+          ""
+        ],
+        "order": 4,
+        "timestamp": 1750142303060
+      },
+      {
+        "id": "column6_item1",
+        "columnId": "6",
+        "title": "<span style=\"font-weight: 400; text-wrap: wrap; background-color: rgb(255, 255, 255);\"><b style=\"\">dessa vez</b></span>",
+        "textCells": [
+          "<br>",
+          "",
+          "<span style=\"text-wrap: nowrap; background-color: rgb(240, 240, 240);\">в этот раз</span>",
+          "<i>Acertei dessa vez.</i>",
+          "",
+          ""
+        ],
+        "imageCells": [
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/portuguese/bom_dia_ver%C3%B4nica/1/4.png",
+          "",
+          ""
+        ],
+        "order": 4,
+        "timestamp": 1750142001012
+      },
+      {
+        "id": "column6_item2",
+        "columnId": "6",
+        "title": "pra",
+        "textCells": [
+          "",
+          "",
+          "на",
+          "<i>-</i>",
+          "<i>Cataloga pra segunda.</i>",
+          ""
+        ],
+        "imageCells": [
+          "",
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/portuguese/bom_dia_ver%C3%B4nica/1/5.png",
+          ""
+        ],
+        "order": 6,
+        "timestamp": 1750142001013
+      },
+      {
+        "id": "column6_item3",
+        "columnId": "6",
+        "title": "segunda",
+        "textCells": [
+          "",
+          "полн = segunda-feira",
+          "пн",
+          "<i>-</i>",
+          "<i>Cataloga pra segunda.</i>",
+          ""
+        ],
+        "imageCells": [
+          "",
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/portuguese/bom_dia_ver%C3%B4nica/1/5.png",
+          ""
+        ],
+        "order": 1,
+        "timestamp": 1750142001012
+      },
+      {
+        "id": "column6_item4",
+        "columnId": "6",
+        "title": "agora",
+        "textCells": [
+          "",
+          "",
+          "",
+          "-",
+          "<i>Ele tá agora numa academia lá em Moema.</i>",
+          ""
+        ],
+        "imageCells": [
+          "",
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/portuguese/bom_dia_ver%C3%B4nica/2/3.png",
+          ""
+        ],
+        "order": 5,
+        "timestamp": 1750142001013
+      },
+      {
+        "id": "column6_item5",
+        "columnId": "6",
+        "title": "às (a + as)",
+        "textCells": [
+          "",
+          "",
+          "",
+          "",
+          "<i>A gente marcou com o suspeito às Três da tarde em ponto na rua Formosa, Vale do Anhangabaú.</i>",
+          ""
+        ],
+        "imageCells": [
+          "",
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/portuguese/bom_dia_ver%C3%B4nica/3/3.png",
+          ""
+        ],
+        "order": 0,
+        "timestamp": 1750142307128
+      },
+      {
+        "id": "column6_item6",
+        "columnId": "6",
+        "title": "da tarde = PM",
+        "textCells": [
+          "",
+          "",
+          "",
+          "",
+          "<i>A gente marcou com o suspeito às Três da tarde em ponto na rua Formosa, Vale do Anhangabaú.</i>",
+          ""
+        ],
+        "imageCells": [
+          "",
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/portuguese/bom_dia_ver%C3%B4nica/3/3.png",
+          ""
+        ],
+        "order": 2,
+        "timestamp": 1750142310605
+      },
+      {
+        "id": "column6_item7",
+        "columnId": "6",
+        "title": "em ponto - ровно",
+        "textCells": [
+          "",
+          "",
+          "",
+          "",
+          "<i>A gente marcou com o suspeito às Três da tarde em ponto na rua Formosa, Vale do Anhangabaú.</i>",
+          ""
+        ],
+        "imageCells": [
+          "",
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/portuguese/bom_dia_ver%C3%B4nica/3/3.png",
+          ""
+        ],
+        "order": 3,
+        "timestamp": 1750142314410
+      },
+      {
+        "id": "column7_item1",
+        "columnId": "7",
+        "title": "uma",
+        "textCells": [
+          "",
+          "",
+          "одна",
+          "",
+          "",
+          "<i>Ele deixa uma foto pra coagir as vítimas e vende as outras na internet.</i>"
+        ],
+        "imageCells": [
+          "",
+          "",
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/portuguese/bom_dia_ver%C3%B4nica/2/4.png"
+        ],
+        "order": 0,
+        "timestamp": 1750141900951
+      },
+      {
+        "id": "column7_item2",
+        "columnId": "7",
+        "title": "bom (хорошие в значении \"много\")",
+        "textCells": [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "<i>E faz um bom dinheiro com isso.</i>"
+        ],
+        "imageCells": [
+          "",
+          "",
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/portuguese/bom_dia_ver%C3%B4nica/2/5.png"
+        ],
+        "order": 2,
+        "timestamp": 1750141900952
+      },
+      {
+        "id": "column7_item3",
+        "columnId": "7",
+        "title": "Três",
+        "textCells": [
+          "",
+          "",
+          "",
+          "",
+          "<i>A gente marcou com o suspeito às Três da tarde em ponto na rua Formosa, Vale do Anhangabaú.</i>",
+          ""
+        ],
+        "imageCells": [
+          "",
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/portuguese/bom_dia_ver%C3%B4nica/3/3.png",
+          ""
+        ],
+        "order": 1,
+        "timestamp": 1750143121683
+      },
+      {
+        "id": "column8_item1",
+        "columnId": "8",
+        "title": "gostar",
+        "textCells": [
+          "-ar<br>",
+          "gostar de",
+          "",
+          "<i>O que meu pai não ia gostar é de ver você me excluindo desse jeito.</i>",
+          "",
+          ""
+        ],
+        "imageCells": [
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/portuguese/bom_dia_ver%C3%B4nica/1/3.png",
+          "",
+          ""
+        ],
+        "order": 4,
+        "timestamp": 1750319449074
+      },
+      {
+        "id": "column8_item2",
+        "columnId": "8",
+        "title": "acertar",
+        "textCells": [
+          "-ar",
+          "",
+          "",
+          "<i>Acertei dessa vez.</i>",
+          "",
+          ""
+        ],
+        "imageCells": [
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/portuguese/bom_dia_ver%C3%B4nica/1/4.png",
+          "",
+          ""
+        ],
+        "order": 3,
+        "timestamp": 1750319449074
+      },
+      {
+        "id": "column8_item3",
+        "columnId": "8",
+        "title": "cobrar",
+        "textCells": [
+          "-ar",
+          "",
+          "",
+          "<i>Eu tô sendo cobrado por todo mundo!</i>",
+          "",
+          ""
+        ],
+        "imageCells": [
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/portuguese/bom_dia_ver%C3%B4nica/2/1.png",
+          "",
+          ""
+        ],
+        "order": 1,
+        "timestamp": 1750319449073
+      },
+      {
+        "id": "column8_item4",
+        "columnId": "8",
+        "title": "ficar",
+        "textCells": [
+          "-ar",
+          "",
+          "",
+          "<i>Fiquei tão orgulhosa, Nete!</i>",
+          "",
+          ""
+        ],
+        "imageCells": [
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/portuguese/bom_dia_ver%C3%B4nica/3/2.png",
+          "",
+          ""
+        ],
+        "order": 2,
+        "timestamp": 1750319449073
+      },
+      {
+        "id": "column8_item5",
+        "columnId": "8",
+        "title": "desculpar",
+        "textCells": [
+          "",
+          "",
+          "",
+          "",
+          "<i>Desculpa, amor.</i>",
+          ""
+        ],
+        "imageCells": [
+          "",
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/portuguese/bom_dia_ver%C3%B4nica/3/4.png",
+          ""
+        ],
+        "order": 0,
+        "timestamp": 1750329594405
+      }
+    ]
+  }
+}

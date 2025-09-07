@@ -1,0 +1,2233 @@
+{
+  "dbName": "Srpski",
+  "timestamp": "2025-09-07T06:49:08.708Z",
+  "version": 4,
+  "schema": {
+    "objectStores": [
+      {
+        "name": "counters",
+        "keyPath": "id",
+        "autoIncrement": false,
+        "indexes": []
+      },
+      {
+        "name": "items",
+        "keyPath": "id",
+        "autoIncrement": false,
+        "indexes": [
+          {
+            "name": "columnId",
+            "keyPath": "columnId",
+            "multiEntry": false,
+            "unique": false
+          },
+          {
+            "name": "order",
+            "keyPath": "order",
+            "multiEntry": false,
+            "unique": false
+          }
+        ]
+      }
+    ]
+  },
+  "stores": {
+    "counters": [
+      {
+        "id": "itemCounters",
+        "counters": {
+          "1": 44,
+          "2": 18,
+          "3": 20,
+          "4": 19,
+          "5": 19,
+          "6": 6,
+          "7": 3,
+          "8": 11
+        }
+      }
+    ],
+    "items": [
+      {
+        "id": "column1_item10",
+        "columnId": "1",
+        "title": "to",
+        "textCells": [
+          "",
+          "",
+          "",
+          "<i>&nbsp;</i>",
+          "<i>Ko je to reko'?</i>",
+          ""
+        ],
+        "imageCells": [
+          "",
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/srpski/kad_budem_mrtav_i_beo/9.png",
+          ""
+        ],
+        "order": 23,
+        "timestamp": 1757094730632
+      },
+      {
+        "id": "column1_item11",
+        "columnId": "1",
+        "title": "ovi / ove / ova",
+        "textCells": [
+          "",
+          "ove / ove / ova",
+          "",
+          "<i>Ovi sviraju šlagere.</i>",
+          "<i>I ovaj autobus, i ove ljude, i ovu reku, sve.</i>",
+          ""
+        ],
+        "imageCells": [
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/srpski/kad_budem_mrtav_i_beo/10.png",
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/srpski/Ko%20To%20Tamo%20Peva/10.png",
+          ""
+        ],
+        "order": 26,
+        "timestamp": 1757094730633
+      },
+      {
+        "id": "column1_item12",
+        "columnId": "1",
+        "title": "<span style=\"text-wrap: wrap; background-color: rgb(255, 255, 255);\">сущ&nbsp;</span>Akuzativ<span style=\"text-wrap: wrap; background-color: rgb(255, 255, 255);\">&nbsp; мн.</span>",
+        "textCells": [
+          "M -e / -ove",
+          "",
+          "",
+          "<i>Ovi sviraju šlagere.<br>Večeras imamo goste, maestro.<br></i><div><i>Imao je pune džepove kamenja.</i><i><br></i></div>",
+          "<br>",
+          ""
+        ],
+        "imageCells": [
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/srpski/kad_budem_mrtav_i_beo/10.png",
+          "",
+          ""
+        ],
+        "order": 7,
+        "timestamp": 1757094730630
+      },
+      {
+        "id": "column1_item13",
+        "columnId": "1",
+        "title": "ona&nbsp;",
+        "textCells": [
+          "",
+          "Akuzativ -<b> nju</b>",
+          "",
+          "<i>-</i>",
+          "<i>... i da nju, samo nju volim ja.</i>",
+          ""
+        ],
+        "imageCells": [
+          "",
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/srpski/kad_budem_mrtav_i_beo/11.png",
+          ""
+        ],
+        "order": 20,
+        "timestamp": 1757094730632
+      },
+      {
+        "id": "column1_item14",
+        "columnId": "1",
+        "title": "ja",
+        "textCells": [
+          "я",
+          "",
+          "",
+          "<i>... i da nju, samo nju volim ja.</i>",
+          "",
+          ""
+        ],
+        "imageCells": [
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/srpski/kad_budem_mrtav_i_beo/11.png",
+          "",
+          ""
+        ],
+        "order": 17,
+        "timestamp": 1757094730632
+      },
+      {
+        "id": "column1_item18",
+        "columnId": "1",
+        "title": "sam/sama/samo - усил. для&nbsp; сущ.",
+        "textCells": [
+          "<span style=\"text-wrap: nowrap; background-color: rgb(240, 240, 240);\">sam - м. / sama - Ж. / samo - Ср.</span>",
+          "",
+          "",
+          "<i>Danas, sam vazduh se pretvara u ubicu!</i>",
+          "",
+          ""
+        ],
+        "imageCells": [
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/srpski/Ki%C4%8Dma/4.png",
+          "",
+          ""
+        ],
+        "order": 15,
+        "timestamp": 1757094730631
+      },
+      {
+        "id": "column1_item19",
+        "columnId": "1",
+        "title": "ce - возвратное местоимение",
+        "textCells": [
+          "",
+          "",
+          "",
+          "<i>-</i>",
+          "<i>Dragi gledaoci, ne treba da se uznemiravate.</i>",
+          "<i>Danas, sam vazduh se pretvara u ubicu!</i>"
+        ],
+        "imageCells": [
+          "",
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/srpski/Ki%C4%8Dma/6.png",
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/srpski/Ki%C4%8Dma/4.png"
+        ],
+        "order": 16,
+        "timestamp": 1757094730631
+      },
+      {
+        "id": "column1_item20",
+        "columnId": "1",
+        "title": "Nominativ ед.",
+        "textCells": [
+          "М",
+          "Ж",
+          "Ср",
+          "<i>Danas, sam vazduh se pretvara u ubicu!<br></i><i>Gde ti je otac?&nbsp;</i><i><br></i>",
+          "<i>To je moja bolest.<br></i><i>Jedna dobra ideja</i><i><br></i>",
+          "<i>Ovo kljuse nikad neće stići do groblja.</i><i><br></i>"
+        ],
+        "imageCells": [
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/srpski/Ko%20To%20Tamo%20Peva/7.png",
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/srpski/Ki%C4%8Dma/9.png",
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/srpski/Ko%20To%20Tamo%20Peva/6.png"
+        ],
+        "order": 1,
+        "timestamp": 1757094730629
+      },
+      {
+        "id": "column1_item21",
+        "columnId": "1",
+        "title": "<span style=\"text-wrap: wrap; background-color: rgb(255, 255, 255);\">сущ&nbsp;</span>Akuzativ<span style=\"text-wrap: wrap; background-color: rgb(255, 255, 255);\">&nbsp; ед.</span>",
+        "textCells": [
+          "M -u / -",
+          "Ж -u / -",
+          "",
+          "<i>Danas, sam vazduh se pretvara u ubicu!<br>I ovaj autobus, i ove ljude, i ovu reku, sve.<br></i>",
+          "<i>Ispituješ krv ljudi koji umiru na specifičan način?</i><div><i>Oćeš kartu?</i><i><br></i></div>",
+          ""
+        ],
+        "imageCells": [
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/srpski/Ko%20To%20Tamo%20Peva/10.png",
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/srpski/Ko%20To%20Tamo%20Peva/2.png",
+          ""
+        ],
+        "order": 6,
+        "timestamp": 1757094730630
+      },
+      {
+        "id": "column1_item22",
+        "columnId": "1",
+        "title": "<span style=\"text-wrap: wrap; background-color: rgb(255, 255, 255);\">прил. Nominativ мн.</span>",
+        "textCells": [
+          "М -i",
+          "оконч. на согл. -&gt; -i&nbsp;",
+          "Ср",
+          "<i>Dragi gledaoci, ne treba da se uznemiravate.<br>Siromasi ovog kraja čekaju da sunce sine, čekaju da sunce sine.<br></i>",
+          "<i>Evo, najnovije vesti.</i>",
+          ""
+        ],
+        "imageCells": [
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/srpski/Ki%C4%8Dma/6.png",
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/srpski/Ki%C4%8Dma/1.png",
+          ""
+        ],
+        "order": 3,
+        "timestamp": 1757094730629
+      },
+      {
+        "id": "column1_item23",
+        "columnId": "1",
+        "title": "Vocativ мн.&nbsp;",
+        "textCells": [
+          "М =&nbsp;Nominativ?",
+          "-i",
+          "",
+          "<i>Dragi gledaoci, ne treba da se uznemiravate.</i>",
+          "",
+          ""
+        ],
+        "imageCells": [
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/srpski/Ki%C4%8Dma/6.png",
+          "",
+          ""
+        ],
+        "order": 5,
+        "timestamp": 1757094730630
+      },
+      {
+        "id": "column1_item25",
+        "columnId": "1",
+        "title": "<span style=\"text-wrap: wrap; background-color: rgb(255, 255, 255);\">прил Genitiv ед.</span>",
+        "textCells": [
+          "",
+          "-e",
+          "",
+          "<i>-</i>",
+          "<i>Još malo kisele vode, godilo bi vam?</i>",
+          ""
+        ],
+        "imageCells": [
+          "",
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/srpski/Ki%C4%8Dma/7.png",
+          ""
+        ],
+        "order": 12,
+        "timestamp": 1757094730631
+      },
+      {
+        "id": "column1_item26",
+        "columnId": "1",
+        "title": "vi&nbsp;",
+        "textCells": [
+          "Dativ -&nbsp;<b>vam</b>",
+          "-",
+          "",
+          "<i>Još malo kisele vode, godilo bi vam?</i>",
+          "",
+          ""
+        ],
+        "imageCells": [
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/srpski/Ki%C4%8Dma/7.png",
+          "",
+          ""
+        ],
+        "order": 21,
+        "timestamp": 1757094730632
+      },
+      {
+        "id": "column1_item28",
+        "columnId": "1",
+        "title": "<span style=\"text-wrap: wrap; background-color: rgb(255, 255, 255);\">сущ Genitiv M мн.</span>",
+        "textCells": [
+          "",
+          "",
+          "",
+          "<i>Ispituješ krv ljudi koji umiru na specifičan način?</i>",
+          "",
+          ""
+        ],
+        "imageCells": [
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/srpski/Ki%C4%8Dma/8.png",
+          "",
+          ""
+        ],
+        "order": 11,
+        "timestamp": 1757094730631
+      },
+      {
+        "id": "column1_item29",
+        "columnId": "1",
+        "title": "koji",
+        "textCells": [
+          "",
+          "",
+          "",
+          "<i>Ispituješ krv ljudi koji umiru na specifičan način?</i>",
+          "",
+          ""
+        ],
+        "imageCells": [
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/srpski/Ki%C4%8Dma/8.png",
+          "",
+          ""
+        ],
+        "order": 28,
+        "timestamp": 1757094730633
+      },
+      {
+        "id": "column1_item32",
+        "columnId": "1",
+        "title": "Vocativ ед. = Nominativ",
+        "textCells": [
+          "М =&nbsp;Nominativ?",
+          "Ж&nbsp;<i>-</i>o",
+          "",
+          "<i>Večeras imamo goste, maestro.</i>",
+          "Šta radiš to, budalo?",
+          ""
+        ],
+        "imageCells": [
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/srpski/Ki%C4%8Dma/11.png",
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/srpski/kad_budem_mrtav_i_beo/2.png",
+          ""
+        ],
+        "order": 4,
+        "timestamp": 1757094730630
+      },
+      {
+        "id": "column1_item33",
+        "columnId": "1",
+        "title": "<span style=\"text-wrap: wrap; background-color: rgb(255, 255, 255);\">сущ&nbsp;</span>Akuzativ<span style=\"text-wrap: wrap; background-color: rgb(255, 255, 255);\">&nbsp; мн.&nbsp;</span>plurale tantum",
+        "textCells": [
+          "",
+          "Ж",
+          "",
+          "<br>",
+          "<i>Nosila!</i>",
+          ""
+        ],
+        "imageCells": [
+          "",
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/srpski/Ki%C4%8Dma/14.png",
+          ""
+        ],
+        "order": 8,
+        "timestamp": 1757094730630
+      },
+      {
+        "id": "column1_item34",
+        "columnId": "1",
+        "title": "ovaj / ova / ovo",
+        "textCells": [
+          "",
+          "ovog (ovaj) / ovu / ovo",
+          "ovog /&nbsp; /&nbsp;",
+          "<i>Ovo kljuse nikad neće stići do groblja.</i>",
+          "<i>I ovaj autobus, i ove ljude, i ovu reku, sve.</i>",
+          "<i>Siromasi ovog kraja čekaju da sunce sine, čekaju da sunce sine.</i>"
+        ],
+        "imageCells": [
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/srpski/Ko%20To%20Tamo%20Peva/6.png",
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/srpski/Ko%20To%20Tamo%20Peva/10.png",
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/srpski/Ko%20To%20Tamo%20Peva/1.png"
+        ],
+        "order": 25,
+        "timestamp": 1757227748625
+      },
+      {
+        "id": "column1_item35",
+        "columnId": "1",
+        "title": "moj / moja",
+        "textCells": [
+          "",
+          "",
+          "/ moje /",
+          "<i>Mila moja...</i>",
+          "<i>&nbsp;</i>",
+          "<i>Kad stignemo u Beograd, idemo kod moje sestre.</i>"
+        ],
+        "imageCells": [
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/srpski/Stepenice%20za%20nebo/7.png",
+          "",
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/srpski/Ko%20To%20Tamo%20Peva/3.png"
+        ],
+        "order": 29,
+        "timestamp": 1757095216746
+      },
+      {
+        "id": "column1_item36",
+        "columnId": "1",
+        "title": "сущ. предложный ед.",
+        "textCells": [
+          "",
+          "",
+          "-u",
+          "",
+          "",
+          "<i>Je l' znaš da se u Bg više zaradi na prasetu, nego na vašim kartama?</i>"
+        ],
+        "imageCells": [
+          "",
+          "",
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/srpski/Ko%20To%20Tamo%20Peva/4.png"
+        ],
+        "order": 13,
+        "timestamp": 1757094730631
+      },
+      {
+        "id": "column1_item37",
+        "columnId": "1",
+        "title": "сущ. предложный мн.",
+        "textCells": [
+          "",
+          "-ma",
+          "",
+          "",
+          "<i>Je l' znaš da se u Bg više zaradi na prasetu, nego na vašim kartama?</i>",
+          ""
+        ],
+        "imageCells": [
+          "",
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/srpski/Ko%20To%20Tamo%20Peva/4.png",
+          ""
+        ],
+        "order": 14,
+        "timestamp": 1757094730631
+      },
+      {
+        "id": "column1_item38",
+        "columnId": "1",
+        "title": "ti",
+        "textCells": [
+          "дат.",
+          "",
+          "",
+          "<i>Gde ti je otac?&nbsp;</i>",
+          "",
+          "<br>"
+        ],
+        "imageCells": [
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/srpski/Ko%20To%20Tamo%20Peva/7.png",
+          "",
+          ""
+        ],
+        "order": 18,
+        "timestamp": 1757094730632
+      },
+      {
+        "id": "column1_item39",
+        "columnId": "1",
+        "title": "tvoj",
+        "textCells": [
+          "je tvoj = ti je (дат. падеж)",
+          "",
+          "",
+          "<i>Gde ti je otac?&nbsp;</i>",
+          "",
+          ""
+        ],
+        "imageCells": [
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/srpski/Ko%20To%20Tamo%20Peva/7.png",
+          "",
+          ""
+        ],
+        "order": 30,
+        "timestamp": 1757094730633
+      },
+      {
+        "id": "column1_item40",
+        "columnId": "1",
+        "title": "<span style=\"text-wrap: wrap; background-color: rgb(255, 255, 255);\">прил.&nbsp;</span>Akuzativ<span style=\"text-wrap: wrap; background-color: rgb(255, 255, 255);\">&nbsp;мн.</span>",
+        "textCells": [
+          "М -e",
+          "",
+          "",
+          "<i>Imao je pune džepove kamenja.</i>",
+          "",
+          "<i>&nbsp;</i>"
+        ],
+        "imageCells": [
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/srpski/Ko%20To%20Tamo%20Peva/9.png",
+          "",
+          ""
+        ],
+        "order": 9,
+        "timestamp": 1757094730630
+      },
+      {
+        "id": "column1_item41",
+        "columnId": "1",
+        "title": "sve",
+        "textCells": [
+          "",
+          "",
+          "",
+          "",
+          "<i>I ovaj autobus, i ove ljude, i ovu reku, sve.</i>",
+          ""
+        ],
+        "imageCells": [
+          "",
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/srpski/Ko%20To%20Tamo%20Peva/10.png",
+          ""
+        ],
+        "order": 24,
+        "timestamp": 1757094730633
+      },
+      {
+        "id": "column1_item42",
+        "columnId": "1",
+        "title": "on",
+        "textCells": [
+          "",
+          "Akuzativ -<b>&nbsp;ga</b>",
+          "",
+          "",
+          "<i>A kuda ga vodite?</i>",
+          ""
+        ],
+        "imageCells": [
+          "",
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/srpski/Ko%20To%20Tamo%20Peva/11.png",
+          ""
+        ],
+        "order": 19,
+        "timestamp": 1757094730632
+      },
+      {
+        "id": "column1_item43",
+        "columnId": "1",
+        "title": "neko",
+        "textCells": [
+          "",
+          "",
+          "gen -&nbsp;nekog",
+          "<i>Jel' si videla, jel' ima neka vežba u kraju?</i>",
+          "<i>&nbsp;</i>",
+          "<i>Inače, vidaš nekog?</i>"
+        ],
+        "imageCells": [
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/srpski/Stepenice%20za%20nebo/2.png",
+          "",
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/srpski/Stepenice%20za%20nebo/1.png"
+        ],
+        "order": 22,
+        "timestamp": 1757094730632
+      },
+      {
+        "id": "column1_item44",
+        "columnId": "1",
+        "title": "<span style=\"text-wrap: wrap; background-color: rgb(255, 255, 255);\">прил. Nominativ ед.</span>",
+        "textCells": [
+          "",
+          "Ж -a",
+          "",
+          "",
+          "<i>Mila moja...</i>",
+          ""
+        ],
+        "imageCells": [
+          "",
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/srpski/Stepenice%20za%20nebo/7.png",
+          ""
+        ],
+        "order": 2,
+        "timestamp": 1757095039946
+      },
+      {
+        "id": "column1_item7",
+        "columnId": "1",
+        "title": "taj",
+        "textCells": [
+          "-",
+          "",
+          "tog",
+          "<i>-</i>",
+          "<i>&nbsp;</i>",
+          "<i>Nemoj tog klipana.</i>"
+        ],
+        "imageCells": [
+          "",
+          "",
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/srpski/kad_budem_mrtav_i_beo/4.png"
+        ],
+        "order": 27,
+        "timestamp": 1757094730633
+      },
+      {
+        "id": "column1_item8",
+        "columnId": "1",
+        "title": "<span style=\"text-wrap: wrap; background-color: rgb(255, 255, 255);\">сущ Genitiv ед.</span>",
+        "textCells": [
+          "M&nbsp;-a",
+          "&nbsp;Ж -e",
+          "Ср -a",
+          "<i>Nemoj tog klipana.<br></i><i>Siromasi ovog kraja čekaju da sunce sine, čekaju da sunce sine.</i><i><br></i>",
+          "<i>Još malo kisele vode, godilo bi vam?</i><br><i>A rezerve više nemamo!</i><br>",
+          "<i>Imao je pune džepove kamenja.</i><br>"
+        ],
+        "imageCells": [
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/srpski/kad_budem_mrtav_i_beo/4.png",
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/srpski/Ko%20To%20Tamo%20Peva/8.png",
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/srpski/Ko%20To%20Tamo%20Peva/9.png"
+        ],
+        "order": 10,
+        "timestamp": 1757094730630
+      },
+      {
+        "id": "column1_item9",
+        "columnId": "1",
+        "title": "ko?",
+        "textCells": [
+          "",
+          "",
+          "",
+          "<i>Ko je to reko'?</i>",
+          "",
+          ""
+        ],
+        "imageCells": [
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/srpski/kad_budem_mrtav_i_beo/9.png",
+          "",
+          ""
+        ],
+        "order": 0,
+        "timestamp": 1757094730628
+      },
+      {
+        "id": "column2_item10",
+        "columnId": "2",
+        "title": "PREZENT в роли прямщасного процессного действия",
+        "textCells": [
+          "",
+          "",
+          "",
+          "<i>-</i>",
+          "<i>Šta radite tu, Pavle?</i>",
+          "<i>Siromasi ovog kraja čekaju da sunce sine, čekaju da sunce sine.</i><br><i>Danas, sam vazduh se pretvara u ubicu!</i>"
+        ],
+        "imageCells": [
+          "",
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/srpski/Ki%C4%8Dma/2.png",
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/srpski/Ki%C4%8Dma/4.png"
+        ],
+        "order": 4,
+        "timestamp": 1757227557316
+      },
+      {
+        "id": "column2_item11",
+        "columnId": "2",
+        "title": "PREZENT в роли будущего свершающегося&nbsp;действия",
+        "textCells": [
+          "",
+          "",
+          "",
+          "<i>Šta da radimo, komšija, da bežimo?</i>",
+          "<i>A kuda ga vodite?</i><br>",
+          "<i>Siromasi ovog kraja čekaju da sunce sine, čekaju da sunce sine.</i>"
+        ],
+        "imageCells": [
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/srpski/Ki%C4%8Dma/3.png",
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/srpski/Ko%20To%20Tamo%20Peva/11.png",
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/srpski/Ko%20To%20Tamo%20Peva/1.png"
+        ],
+        "order": 10,
+        "timestamp": 1757227509935
+      },
+      {
+        "id": "column2_item13",
+        "columnId": "2",
+        "title": "безличное + PRESENT в роли оценивающего",
+        "textCells": [
+          "",
+          "",
+          "",
+          "<i>-</i>",
+          "<i>Dragi gledaoci, ne treba da se uznemiravate.</i>",
+          ""
+        ],
+        "imageCells": [
+          "",
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/srpski/Ki%C4%8Dma/6.png",
+          ""
+        ],
+        "order": 5,
+        "timestamp": 1749712545746
+      },
+      {
+        "id": "column2_item14",
+        "columnId": "2",
+        "title": "CONDITIONAL I в роли будущего теоретического действия",
+        "textCells": [
+          "PERFEKAT + bih/bi/bi/bismo/biste/bi",
+          "",
+          "",
+          "<i>-</i>",
+          "",
+          "Još malo kisele vode, godilo bi vam?"
+        ],
+        "imageCells": [
+          "",
+          "",
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/srpski/Ki%C4%8Dma/7.png"
+        ],
+        "order": 8,
+        "timestamp": 1749712545747
+      },
+      {
+        "id": "column2_item15",
+        "columnId": "2",
+        "title": "FUTURE I в роли будущего свершающегося действия (hteti + verb)",
+        "textCells": [
+          "hoću / hoćemo",
+          "hoćeš / hoćete",
+          "hoće / hoće",
+          "-",
+          "<i>Hoćeš doći?<br>Oćeš kartu?<br></i>",
+          "<i>Ovo kljuse nikad neće stići do groblja.</i>"
+        ],
+        "imageCells": [
+          "",
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/srpski/Ki%C4%8Dma/10.png",
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/srpski/Ko%20To%20Tamo%20Peva/6.png"
+        ],
+        "order": 9,
+        "timestamp": 1750699591406
+      },
+      {
+        "id": "column2_item17",
+        "columnId": "2",
+        "title": "PERFEKAT в роли свершившегося действия, объектный глагол в present",
+        "textCells": [
+          "",
+          "",
+          "",
+          "Nisam hteo da pričam.",
+          "",
+          ""
+        ],
+        "imageCells": [
+          "",
+          "",
+          ""
+        ],
+        "order": 1,
+        "timestamp": 1749712613341
+      },
+      {
+        "id": "column2_item18",
+        "columnId": "2",
+        "title": "PERFEKAT в роли прошедшего распростертого действия",
+        "textCells": [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "<i>Imao je pune džepove kamenja.</i>"
+        ],
+        "imageCells": [
+          "",
+          "",
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/srpski/Ko%20To%20Tamo%20Peva/9.png"
+        ],
+        "order": 2,
+        "timestamp": 1751393588534
+      },
+      {
+        "id": "column2_item3",
+        "columnId": "2",
+        "title": "IMPERATIV&nbsp;",
+        "textCells": [
+          "&gt; –a<br>",
+          "&gt; -e",
+          "",
+          "<i>Čekaj tu</i>",
+          "<i>Kreći.</i><div><i>Stanite!<br></i><i>Izvini.</i><br></div>",
+          ""
+        ],
+        "imageCells": [
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/srpski/kad_budem_mrtav_i_beo/1.png",
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/srpski/Ko%20To%20Tamo%20Peva/12.png",
+          ""
+        ],
+        "order": 6,
+        "timestamp": 1751437686883
+      },
+      {
+        "id": "column2_item5",
+        "columnId": "2",
+        "title": "IMPERATIV искл",
+        "textCells": [
+          "",
+          "",
+          "",
+          "<i>Nemoj tog klipana.</i>",
+          "<i>Ajde.</i>",
+          ""
+        ],
+        "imageCells": [
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/srpski/kad_budem_mrtav_i_beo/4.png",
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/srpski/kad_budem_mrtav_i_beo/7.png",
+          ""
+        ],
+        "order": 7,
+        "timestamp": 1749712545747
+      },
+      {
+        "id": "column2_item6",
+        "columnId": "2",
+        "title": "PERFEKAT в роли свершившегося действия (biti + глагол)",
+        "textCells": [
+          "-o (м) -la (ж) / -li (м/см) -le (ж)",
+          "-o (м) -la (ж) / -li (м/см) -le (ж)",
+          "-o -la -lo / -li -le -la",
+          "<i>-</i>",
+          "<i>Jel' si videla, jel' ima neka vežba u kraju?</i><br>",
+          "<i>Ko je to reko'?<br></i><i>Telefonirali su.</i><br>"
+        ],
+        "imageCells": [
+          "",
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/srpski/Stepenice%20za%20nebo/2.png",
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/srpski/Ki%C4%8Dma/12.png"
+        ],
+        "order": 0,
+        "timestamp": 1751393356634
+      },
+      {
+        "id": "column2_item8",
+        "columnId": "2",
+        "title": "PREZENT в роли настоящего распростертого действия&nbsp;&nbsp;",
+        "textCells": [
+          "",
+          "-š",
+          "",
+          "<i>... i da nju, samo nju volim ja.<br>A rezerve više nemamo!<br></i>",
+          "<i>Kradeš, je li?<br></i><i>Ispituješ krv ljudi koji umiru na specifičan način?<br></i><i>Je l' znaš da se u Bg više zaradi na prasetu, nego na vašim kartama?<br></i><i>Inače, vidaš nekog?</i><i><br></i>",
+          "<i>Ovi sviraju šlagere.<br></i><i>To je moja bolest.<br></i><i>Gde ti je otac?&nbsp;</i><i><br></i>"
+        ],
+        "imageCells": [
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/srpski/Ko%20To%20Tamo%20Peva/8.png",
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/srpski/kad_budem_mrtav_i_beo/3.png",
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/srpski/kad_budem_mrtav_i_beo/10.png"
+        ],
+        "order": 3,
+        "timestamp": 1750699308163
+      },
+      {
+        "id": "column3_item12",
+        "columnId": "3",
+        "title": "pretvarati&nbsp;<span style=\"font-weight: 400; text-wrap: wrap; background-color: rgb(255, 255, 255);\">–ati &gt; –a</span>",
+        "textCells": [
+          "",
+          "",
+          "",
+          "<i>-</i>",
+          "",
+          "<i>Danas, sam vazduh se pretvara u ubicu!</i>"
+        ],
+        "imageCells": [
+          "",
+          "",
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/srpski/Ki%C4%8Dma/4.png"
+        ],
+        "order": 4,
+        "timestamp": 1751392569103
+      },
+      {
+        "id": "column3_item13",
+        "columnId": "3",
+        "title": "ispitivati&nbsp;<span style=\"font-weight: 400; text-wrap: wrap; background-color: rgb(255, 255, 255);\">2) –ovati / –ivati &gt; –uje</span>",
+        "textCells": [
+          "",
+          "",
+          "",
+          "<i>-</i>",
+          "<i>Ispituješ krv ljudi koji umiru na specifičan način?</i>",
+          ""
+        ],
+        "imageCells": [
+          "",
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/srpski/Ki%C4%8Dma/8.png",
+          ""
+        ],
+        "order": 2,
+        "timestamp": 1751392569102
+      },
+      {
+        "id": "column3_item14",
+        "columnId": "3",
+        "title": "umirati&nbsp;<span style=\"font-weight: 400; text-wrap: wrap; background-color: rgb(255, 255, 255);\">1) –ati &gt; –e</span>",
+        "textCells": [
+          "",
+          "",
+          "",
+          "<i>-</i>",
+          "",
+          "<i>Ispituješ krv ljudi koji umiru na specifičan način?</i>"
+        ],
+        "imageCells": [
+          "",
+          "",
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/srpski/Ki%C4%8Dma/8.png"
+        ],
+        "order": 12,
+        "timestamp": 1751392569104
+      },
+      {
+        "id": "column3_item15",
+        "columnId": "3",
+        "title": "biti&nbsp;<span style=\"font-weight: normal;\">irreg</span>",
+        "textCells": [
+          "",
+          "",
+          "",
+          "<i>-</i>",
+          "",
+          "<i>To je moja bolest.</i>"
+        ],
+        "imageCells": [
+          "",
+          "",
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/srpski/Ki%C4%8Dma/9.png"
+        ],
+        "order": 0,
+        "timestamp": 1751392569102
+      },
+      {
+        "id": "column3_item16",
+        "columnId": "3",
+        "title": "telefonirati&nbsp;<span style=\"font-weight: 400; text-wrap: wrap; background-color: rgb(255, 255, 255);\">–ati &gt; –a</span>",
+        "textCells": [
+          "",
+          "",
+          "",
+          "<i>-</i>",
+          "",
+          "<i>Telefonirali&nbsp;</i><i>su.</i>"
+        ],
+        "imageCells": [
+          "",
+          "",
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/srpski/Ki%C4%8Dma/12.png"
+        ],
+        "order": 9,
+        "timestamp": 1751392569103
+      },
+      {
+        "id": "column3_item17",
+        "columnId": "3",
+        "title": "krasti&nbsp;<span style=\"font-weight: normal;\">9) –sti &gt; –de</span>",
+        "textCells": [
+          "",
+          "",
+          "",
+          "",
+          "<i>Kradeš, je li?</i>",
+          ""
+        ],
+        "imageCells": [
+          "",
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/srpski/kad_budem_mrtav_i_beo/3.png",
+          ""
+        ],
+        "order": 3,
+        "timestamp": 1751392569103
+      },
+      {
+        "id": "column3_item18",
+        "columnId": "3",
+        "title": "sinuti <span style=\"font-weight: 400; text-wrap: wrap;\">7) –nuti &gt; –ne</span>",
+        "textCells": [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "<i>Siromasi ovog kraja čekaju da sunce sine, čekaju da sunce sine.</i>"
+        ],
+        "imageCells": [
+          "",
+          "",
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/srpski/Ko%20To%20Tamo%20Peva/1.png"
+        ],
+        "order": 7,
+        "timestamp": 1751392569103
+      },
+      {
+        "id": "column3_item19",
+        "columnId": "3",
+        "title": "znati&nbsp;<span style=\"font-weight: 400; text-wrap: wrap;\">–ati &gt; –a</span>",
+        "textCells": [
+          "",
+          "",
+          "",
+          "",
+          "<i>Je l' znaš da se u Bg više zaradi na prasetu, nego na vašim kartama?</i>",
+          ""
+        ],
+        "imageCells": [
+          "",
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/srpski/Ko%20To%20Tamo%20Peva/4.png",
+          ""
+        ],
+        "order": 11,
+        "timestamp": 1751392569104
+      },
+      {
+        "id": "column3_item20",
+        "columnId": "3",
+        "title": "videti&nbsp;<span style=\"text-wrap: wrap; font-weight: 400; background-color: rgb(255, 255, 255);\">–iti &gt; –i</span>",
+        "textCells": [
+          "",
+          "",
+          "",
+          "",
+          "<i>Jel' si videla, jel' ima neka vežba u kraju?</i>",
+          ""
+        ],
+        "imageCells": [
+          "",
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/srpski/Stepenice%20za%20nebo/2.png",
+          ""
+        ],
+        "order": 10,
+        "timestamp": 1751393359397
+      },
+      {
+        "id": "column3_item4",
+        "columnId": "3",
+        "title": "raditi&nbsp;<span style=\"font-weight: 400; text-wrap: wrap; background-color: rgb(255, 255, 255);\">–iti &gt; –i</span>",
+        "textCells": [
+          "",
+          "",
+          "",
+          "<i>Šta da radimo, komšija, da bežimo?</i><br>",
+          "<i>Šta radiš to, budalo?</i><i><br>Šta radite tu, Pavle?</i>",
+          "<br>"
+        ],
+        "imageCells": [
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/srpski/Ki%C4%8Dma/3.png",
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/srpski/kad_budem_mrtav_i_beo/2.png",
+          ""
+        ],
+        "order": 5,
+        "timestamp": 1751392569103
+      },
+      {
+        "id": "column3_item6",
+        "columnId": "3",
+        "title": "imati&nbsp;<span style=\"font-weight: 400; text-wrap: wrap;\">–ati &gt; –a</span>",
+        "textCells": [
+          "",
+          "nemoj (ne moj = hteti oldstyle)&nbsp;",
+          "",
+          "<i>Večeras imamo goste, maestro.<br>A rezerve više nemamo!<br></i>",
+          "<i>Nemoj tog klipana.</i>",
+          "<i>Imao je pune džepove kamenja.</i>"
+        ],
+        "imageCells": [
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/srpski/Ki%C4%8Dma/11.png",
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/srpski/kad_budem_mrtav_i_beo/4.png",
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/srpski/Ko%20To%20Tamo%20Peva/9.png"
+        ],
+        "order": 1,
+        "timestamp": 1757095248447
+      },
+      {
+        "id": "column3_item8",
+        "columnId": "3",
+        "title": "<b><span class=\"Latn\" lang=\"sh\">reći&nbsp;</span></b><span style=\"font-weight: 400; text-wrap: wrap; background-color: rgb(255, 255, 255);\">18) –ći&gt;–če (oni –ku)</span>",
+        "textCells": [
+          "",
+          "",
+          "<i>reko' = rekao</i>",
+          "<i>-</i>",
+          "",
+          "<i>Ko je to reko'?</i>"
+        ],
+        "imageCells": [
+          "",
+          "",
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/srpski/kad_budem_mrtav_i_beo/9.png"
+        ],
+        "order": 6,
+        "timestamp": 1751392569103
+      },
+      {
+        "id": "column3_item9",
+        "columnId": "3",
+        "title": "svirati&nbsp;<span style=\"font-weight: 400; text-wrap: wrap; background-color: rgb(255, 255, 255);\">–ati &gt; –a</span>",
+        "textCells": [
+          "",
+          "",
+          "",
+          "<i>-</i>",
+          "",
+          "<i>Ovi sviraju šlagere.</i>"
+        ],
+        "imageCells": [
+          "",
+          "",
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/srpski/kad_budem_mrtav_i_beo/10.png"
+        ],
+        "order": 8,
+        "timestamp": 1751392569103
+      },
+      {
+        "id": "column4_item1",
+        "columnId": "4",
+        "title": "<span style=\"text-wrap: wrap; background-color: rgb(255, 255, 255);\">to (усилительный пристяг к глаголу)</span>",
+        "textCells": [
+          "",
+          "",
+          "",
+          "<i>-</i>",
+          "<i>Šta radiš to, budalo?</i>",
+          ""
+        ],
+        "imageCells": [
+          "",
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/srpski/kad_budem_mrtav_i_beo/2.png",
+          ""
+        ],
+        "order": 12,
+        "timestamp": 1751393064174
+      },
+      {
+        "id": "column4_item10",
+        "columnId": "4",
+        "title": "na način - каким образом",
+        "textCells": [
+          "",
+          "",
+          "",
+          "<i>-</i>",
+          "",
+          "<i>Ispituješ krv ljudi koji umiru na specifičan način?</i>"
+        ],
+        "imageCells": [
+          "",
+          "",
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/srpski/Ki%C4%8Dma/8.png"
+        ],
+        "order": 16,
+        "timestamp": 1751393064174
+      },
+      {
+        "id": "column4_item11",
+        "columnId": "4",
+        "title": "to (\"причина\" )",
+        "textCells": [
+          "",
+          "",
+          "",
+          "<i>-</i>",
+          "",
+          "<i>To je moja bolest.</i>"
+        ],
+        "imageCells": [
+          "",
+          "",
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/srpski/Ki%C4%8Dma/9.png"
+        ],
+        "order": 6,
+        "timestamp": 1751393064173
+      },
+      {
+        "id": "column4_item12",
+        "columnId": "4",
+        "title": "da - связка глагола и желаемого/ожидаемого",
+        "textCells": [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "<i>Siromasi ovog kraja čekaju da sunce sine, čekaju da sunce sine.</i>"
+        ],
+        "imageCells": [
+          "",
+          "",
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/srpski/Ko%20To%20Tamo%20Peva/1.png"
+        ],
+        "order": 11,
+        "timestamp": 1751393064174
+      },
+      {
+        "id": "column4_item13",
+        "columnId": "4",
+        "title": "глагол + возвратное (некие \"они\" / \"можно\")",
+        "textCells": [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "<i>Je l' znaš da se u Bg više zaradi na prasetu, nego na vašim kartama?</i>"
+        ],
+        "imageCells": [
+          "",
+          "",
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/srpski/Ko%20To%20Tamo%20Peva/4.png"
+        ],
+        "order": 7,
+        "timestamp": 1751393064173
+      },
+      {
+        "id": "column4_item14",
+        "columnId": "4",
+        "title": "nego",
+        "textCells": [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "<i>Je l' znaš da se u Bg više zaradi na prasetu, nego na vašim kartama?</i>"
+        ],
+        "imageCells": [
+          "",
+          "",
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/srpski/Ko%20To%20Tamo%20Peva/4.png"
+        ],
+        "order": 13,
+        "timestamp": 1751393064174
+      },
+      {
+        "id": "column4_item15",
+        "columnId": "4",
+        "title": "na (на чем, посредством чего)",
+        "textCells": [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "<i>Je l' znaš da se u Bg više zaradi na prasetu, nego na vašim kartama?</i>"
+        ],
+        "imageCells": [
+          "",
+          "",
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/srpski/Ko%20To%20Tamo%20Peva/4.png"
+        ],
+        "order": 14,
+        "timestamp": 1751393064174
+      },
+      {
+        "id": "column4_item16",
+        "columnId": "4",
+        "title": "a - противопоставление",
+        "textCells": [
+          "",
+          "",
+          "",
+          "<i>A rezerve više nemamo!</i>",
+          "",
+          ""
+        ],
+        "imageCells": [
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/srpski/Ko%20To%20Tamo%20Peva/8.png",
+          "",
+          ""
+        ],
+        "order": 9,
+        "timestamp": 1751393064174
+      },
+      {
+        "id": "column4_item17",
+        "columnId": "4",
+        "title": "a - вводное \"A\"",
+        "textCells": [
+          "",
+          "",
+          "",
+          "",
+          "<i>A kuda ga vodite?</i>",
+          ""
+        ],
+        "imageCells": [
+          "",
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/srpski/Ko%20To%20Tamo%20Peva/11.png",
+          ""
+        ],
+        "order": 3,
+        "timestamp": 1751393064173
+      },
+      {
+        "id": "column4_item18",
+        "columnId": "4",
+        "title": "inače - вводное \"Вообще\"",
+        "textCells": [
+          "",
+          "",
+          "",
+          "",
+          "<i>Inače, vidaš nekog?</i>",
+          ""
+        ],
+        "imageCells": [
+          "",
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/srpski/Stepenice%20za%20nebo/1.png",
+          ""
+        ],
+        "order": 2,
+        "timestamp": 1751393064173
+      },
+      {
+        "id": "column4_item19",
+        "columnId": "4",
+        "title": "ima - there is",
+        "textCells": [
+          "",
+          "",
+          "",
+          "",
+          "<i>Jel' si videla, jel' ima neka vežba u kraju?</i>",
+          ""
+        ],
+        "imageCells": [
+          "",
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/srpski/Stepenice%20za%20nebo/2.png",
+          ""
+        ],
+        "order": 8,
+        "timestamp": 1751393368101
+      },
+      {
+        "id": "column4_item2",
+        "columnId": "4",
+        "title": "<span style=\"text-wrap: wrap; background-color: rgb(255, 255, 255);\">š</span><span style=\"text-wrap: wrap; background-color: rgb(255, 255, 255);\">ta?</span>",
+        "textCells": [
+          "что?",
+          "",
+          "",
+          "<i>Šta da radimo, komšija, da bežimo?<br></i><br>",
+          "<i>Šta radiš to, budalo?</i><i><br>Šta radite tu, Pavle?</i>",
+          "<i>-</i>"
+        ],
+        "imageCells": [
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/srpski/Ki%C4%8Dma/3.png",
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/srpski/Ki%C4%8Dma/2.png",
+          ""
+        ],
+        "order": 0,
+        "timestamp": 1751393064173
+      },
+      {
+        "id": "column4_item3",
+        "columnId": "4",
+        "title": "<i style=\"text-wrap: wrap; background-color: rgb(255, 255, 255);\">je li?</i>",
+        "textCells": [
+          "",
+          "не так ли? / булевный вопрос",
+          "",
+          "<br>",
+          "<i>Kradeš, je li?</i><i><br>Je l' znaš da se u Bg više zaradi na prasetu, nego na vašim kartama?<br>Jel' si videla, jel' ima neka vežba u kraju?<br></i>",
+          ""
+        ],
+        "imageCells": [
+          "",
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/srpski/kad_budem_mrtav_i_beo/3.png",
+          ""
+        ],
+        "order": 1,
+        "timestamp": 1751393326033
+      },
+      {
+        "id": "column4_item4",
+        "columnId": "4",
+        "title": "e - вводное \"Ну\"",
+        "textCells": [
+          "",
+          "",
+          "",
+          "<i>E, pa da.</i>",
+          "",
+          ""
+        ],
+        "imageCells": [
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/srpski/kad_budem_mrtav_i_beo/5.png",
+          "",
+          ""
+        ],
+        "order": 4,
+        "timestamp": 1751393064173
+      },
+      {
+        "id": "column4_item5",
+        "columnId": "4",
+        "title": "evo - вот (нечто)",
+        "textCells": [
+          "",
+          "+ сущ род. падежа (или именит., если имя собственное / разг.)",
+          "прил. тоже род. падежа",
+          "<i>-</i>",
+          "<i>-</i>",
+          "<i>Evo slatko.<br>Evo, najnovije vesti.<br></i>"
+        ],
+        "imageCells": [
+          "",
+          "",
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/srpski/kad_budem_mrtav_i_beo/6.png"
+        ],
+        "order": 5,
+        "timestamp": 1751393064173
+      },
+      {
+        "id": "column4_item6",
+        "columnId": "4",
+        "title": "i - соединительный союз",
+        "textCells": [
+          "",
+          "",
+          "",
+          "<i>... i da nju, samo nju volim ja.<br>I ovaj autobus, i ove ljude, i ovu reku, sve.<br></i>",
+          "",
+          ""
+        ],
+        "imageCells": [
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/srpski/kad_budem_mrtav_i_beo/11.png",
+          "",
+          ""
+        ],
+        "order": 18,
+        "timestamp": 1751393064175
+      },
+      {
+        "id": "column4_item7",
+        "columnId": "4",
+        "title": "превосходная степень мн.",
+        "textCells": [
+          "",
+          "i -&gt; ije",
+          "",
+          "<i>-</i>",
+          "<i>Evo, najnovije vesti.</i>",
+          ""
+        ],
+        "imageCells": [
+          "",
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/srpski/Ki%C4%8Dma/1.png",
+          ""
+        ],
+        "order": 17,
+        "timestamp": 1751393064174
+      },
+      {
+        "id": "column4_item8",
+        "columnId": "4",
+        "title": "da - связка основного и придатка",
+        "textCells": [
+          "",
+          "",
+          "",
+          "<i>Šta da radimo, komšija, da bežimo?</i>",
+          "<i>Dragi gledaoci, ne treba da se uznemiravate.<br></i><i>Je l' znaš da se u Bg više zaradi na prasetu, nego na vašim kartama?</i><i><br></i>",
+          ""
+        ],
+        "imageCells": [
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/srpski/Ki%C4%8Dma/3.png",
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/srpski/Ki%C4%8Dma/6.png",
+          ""
+        ],
+        "order": 10,
+        "timestamp": 1751393064174
+      },
+      {
+        "id": "column4_item9",
+        "columnId": "4",
+        "title": "u - в (преобразование в)",
+        "textCells": [
+          "",
+          "",
+          "",
+          "<i>-</i>",
+          "",
+          "<i>Danas, sam vazduh se pretvara u ubicu!</i>"
+        ],
+        "imageCells": [
+          "",
+          "",
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/srpski/Ki%C4%8Dma/4.png"
+        ],
+        "order": 15,
+        "timestamp": 1751393064174
+      },
+      {
+        "id": "column5_item10",
+        "columnId": "5",
+        "title": "stići <span style=\"font-weight: normal;\">19) -ći &gt; -gne</span>",
+        "textCells": [
+          "",
+          "",
+          "",
+          "<i>Kad stignemo u Beograd, idemo kod moje sestre.</i>",
+          "",
+          "<i>Ovo kljuse nikad neće stići do groblja.</i>"
+        ],
+        "imageCells": [
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/srpski/Ko%20To%20Tamo%20Peva/3.png",
+          "",
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/srpski/Ko%20To%20Tamo%20Peva/6.png"
+        ],
+        "order": 9,
+        "timestamp": 1750143314680
+      },
+      {
+        "id": "column5_item11",
+        "columnId": "5",
+        "title": "u (в, куда)",
+        "textCells": [
+          "",
+          "",
+          "",
+          "<i>Kad stignemo u Beograd, idemo kod moje sestre.</i>",
+          "",
+          ""
+        ],
+        "imageCells": [
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/srpski/Ko%20To%20Tamo%20Peva/3.png",
+          "",
+          ""
+        ],
+        "order": 14,
+        "timestamp": 1750143314680
+      },
+      {
+        "id": "column5_item12",
+        "columnId": "5",
+        "title": "kod + genitiv (к кому)",
+        "textCells": [
+          "",
+          "",
+          "",
+          "<i>Kad stignemo u Beograd, idemo kod moje sestre.</i>",
+          "",
+          ""
+        ],
+        "imageCells": [
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/srpski/Ko%20To%20Tamo%20Peva/3.png",
+          "",
+          ""
+        ],
+        "order": 15,
+        "timestamp": 1750143314680
+      },
+      {
+        "id": "column5_item13",
+        "columnId": "5",
+        "title": "u",
+        "textCells": [
+          "",
+          "",
+          "",
+          "",
+          "<i>Jel' si videla, jel' ima neka vežba u kraju?</i>",
+          "<i>Je l' znaš da se u Bg više zaradi na prasetu, nego na vašim kartama?</i><i><br></i>"
+        ],
+        "imageCells": [
+          "",
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/srpski/Stepenice%20za%20nebo/2.png",
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/srpski/Ko%20To%20Tamo%20Peva/4.png"
+        ],
+        "order": 3,
+        "timestamp": 1751393375716
+      },
+      {
+        "id": "column5_item14",
+        "columnId": "5",
+        "title": "nazad",
+        "textCells": [
+          "",
+          "",
+          "",
+          "",
+          "<i>Nazad!</i>",
+          ""
+        ],
+        "imageCells": [
+          "",
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/srpski/Ko%20To%20Tamo%20Peva/5.png",
+          ""
+        ],
+        "order": 12,
+        "timestamp": 1750143314680
+      },
+      {
+        "id": "column5_item15",
+        "columnId": "5",
+        "title": "do",
+        "textCells": [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "<i>Ovo kljuse nikad neće stići do groblja.</i>"
+        ],
+        "imageCells": [
+          "",
+          "",
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/srpski/Ko%20To%20Tamo%20Peva/6.png"
+        ],
+        "order": 13,
+        "timestamp": 1750143314680
+      },
+      {
+        "id": "column5_item16",
+        "columnId": "5",
+        "title": "gde",
+        "textCells": [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "<i>Gde ti je otac?&nbsp;</i>"
+        ],
+        "imageCells": [
+          "",
+          "",
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/srpski/Ko%20To%20Tamo%20Peva/7.png"
+        ],
+        "order": 0,
+        "timestamp": 1750143314678
+      },
+      {
+        "id": "column5_item17",
+        "columnId": "5",
+        "title": "kuda",
+        "textCells": [
+          "",
+          "",
+          "",
+          "",
+          "<i>A kuda ga vodite?</i>",
+          ""
+        ],
+        "imageCells": [
+          "",
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/srpski/Ko%20To%20Tamo%20Peva/11.png",
+          ""
+        ],
+        "order": 11,
+        "timestamp": 1750143314680
+      },
+      {
+        "id": "column5_item18",
+        "columnId": "5",
+        "title": "voditi&nbsp;<span style=\"font-weight: normal;\">–iti &gt; –i</span>",
+        "textCells": [
+          "",
+          "",
+          "",
+          "",
+          "<i>A kuda ga vodite?</i>",
+          ""
+        ],
+        "imageCells": [
+          "",
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/srpski/Ko%20To%20Tamo%20Peva/11.png",
+          ""
+        ],
+        "order": 7,
+        "timestamp": 1750143314679
+      },
+      {
+        "id": "column5_item19",
+        "columnId": "5",
+        "title": "stati&nbsp;<span style=\"font-weight: normal;\">8) –ati &gt; –ane</span>",
+        "textCells": [
+          "",
+          "",
+          "",
+          "",
+          "<i>Stanite!</i>",
+          ""
+        ],
+        "imageCells": [
+          "",
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/srpski/Ko%20To%20Tamo%20Peva/12.png",
+          ""
+        ],
+        "order": 8,
+        "timestamp": 1750143582353
+      },
+      {
+        "id": "column5_item2",
+        "columnId": "5",
+        "title": "kretati&nbsp;<span style=\"font-weight: 400; text-wrap: wrap; background-color: rgb(255, 255, 255);\">21) tati → će</span>",
+        "textCells": [
+          "",
+          "",
+          "",
+          "<i>-</i>",
+          "<i>Kreći.</i>",
+          ""
+        ],
+        "imageCells": [
+          "",
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/srpski/kad_budem_mrtav_i_beo/12.png",
+          ""
+        ],
+        "order": 4,
+        "timestamp": 1751437770193
+      },
+      {
+        "id": "column5_item5",
+        "columnId": "5",
+        "title": "tu",
+        "textCells": [
+          "",
+          "",
+          "",
+          "<i>Čekaj tu</i>",
+          "<i>Šta radite tu, Pavle?</i>",
+          ""
+        ],
+        "imageCells": [
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/srpski/kad_budem_mrtav_i_beo/1.png",
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/srpski/Ki%C4%8Dma/2.png",
+          ""
+        ],
+        "order": 1,
+        "timestamp": 1750143314678
+      },
+      {
+        "id": "column5_item6",
+        "columnId": "5",
+        "title": "bežati&nbsp;<span style=\"font-weight: 400; text-wrap: wrap; background-color: rgb(255, 255, 255);\">–ati &gt; –i</span>",
+        "textCells": [
+          "",
+          "",
+          "",
+          "<i>Šta da radimo, komšija, da bežimo?</i>",
+          "",
+          ""
+        ],
+        "imageCells": [
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/srpski/Ki%C4%8Dma/3.png",
+          "",
+          ""
+        ],
+        "order": 5,
+        "timestamp": 1750143314679
+      },
+      {
+        "id": "column5_item7",
+        "columnId": "5",
+        "title": "kraj",
+        "textCells": [
+          "",
+          "",
+          "",
+          "",
+          "<i>Jel' si videla, jel' ima neka vežba u kraju?</i>",
+          "<i>Siromasi ovog kraja čekaju da sunce sine, čekaju da sunce sine.</i><i><br></i>"
+        ],
+        "imageCells": [
+          "",
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/srpski/Stepenice%20za%20nebo/2.png",
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/srpski/Ko%20To%20Tamo%20Peva/1.png"
+        ],
+        "order": 2,
+        "timestamp": 1757227579564
+      },
+      {
+        "id": "column5_item8",
+        "columnId": "5",
+        "title": "ići <span style=\"font-weight: normal;\">irreg</span>",
+        "textCells": [
+          "ajde = idi",
+          "",
+          "",
+          "<i>Ajde.<br></i><i>Kad stignemo u Beograd, idemo kod moje sestre.</i><i><br></i>",
+          "<i>-</i>",
+          ""
+        ],
+        "imageCells": [
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/srpski/kad_budem_mrtav_i_beo/7.png",
+          "",
+          ""
+        ],
+        "order": 6,
+        "timestamp": 1750143314679
+      },
+      {
+        "id": "column5_item9",
+        "columnId": "5",
+        "title": "doći&nbsp;<span style=\"font-weight: normal;\">17) -ći &gt; -đe</span>",
+        "textCells": [
+          "",
+          "",
+          "",
+          "",
+          "<i>Hoćeš doći?</i>",
+          ""
+        ],
+        "imageCells": [
+          "",
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/srpski/Ki%C4%8Dma/10.png",
+          ""
+        ],
+        "order": 10,
+        "timestamp": 1750143314680
+      },
+      {
+        "id": "column6_item2",
+        "columnId": "6",
+        "title": "danas",
+        "textCells": [
+          "",
+          "",
+          "",
+          "<i>Danas, sam vazduh se pretvara u ubicu!</i>",
+          "",
+          ""
+        ],
+        "imageCells": [
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/srpski/Ki%C4%8Dma/4.png",
+          "",
+          ""
+        ],
+        "order": 0,
+        "timestamp": 1757012025921
+      },
+      {
+        "id": "column6_item3",
+        "columnId": "6",
+        "title": "večeras",
+        "textCells": [
+          "",
+          "",
+          "",
+          "<i>Večeras imamo goste, maestro.</i>",
+          "",
+          ""
+        ],
+        "imageCells": [
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/srpski/Ki%C4%8Dma/11.png",
+          "",
+          ""
+        ],
+        "order": 1,
+        "timestamp": 1744915664263
+      },
+      {
+        "id": "column6_item4",
+        "columnId": "6",
+        "title": "<span style=\"background-color: rgb(255, 255, 255);\"><span style=\"text-wrap: wrap;\">čekati&nbsp;</span></span><span style=\"text-wrap: wrap; font-weight: normal;\">–ati &gt; –a</span>",
+        "textCells": [
+          "",
+          "",
+          "",
+          "",
+          "<i>Čekaj tu</i>",
+          "<i>Siromasi ovog kraja čekaju da sunce sine, čekaju da sunce sine.</i>"
+        ],
+        "imageCells": [
+          "",
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/srpski/kad_budem_mrtav_i_beo/1.png",
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/srpski/Ko%20To%20Tamo%20Peva/1.png"
+        ],
+        "order": 4,
+        "timestamp": 1744915664263
+      },
+      {
+        "id": "column6_item5",
+        "columnId": "6",
+        "title": "kad",
+        "textCells": [
+          "",
+          "",
+          "",
+          "<i>Kad stignemo u Beograd, idemo kod moje sestre.</i>",
+          "",
+          ""
+        ],
+        "imageCells": [
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/srpski/Ko%20To%20Tamo%20Peva/3.png",
+          "",
+          ""
+        ],
+        "order": 2,
+        "timestamp": 1744915664263
+      },
+      {
+        "id": "column6_item6",
+        "columnId": "6",
+        "title": "nikad",
+        "textCells": [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "<i>Ovo kljuse nikad neće stići do groblja.</i>"
+        ],
+        "imageCells": [
+          "",
+          "",
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/srpski/Ko%20To%20Tamo%20Peva/6.png"
+        ],
+        "order": 3,
+        "timestamp": 1744915728703
+      },
+      {
+        "id": "column7_item1",
+        "columnId": "7",
+        "title": "više nego (больше, чем)",
+        "textCells": [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "<i>Je l' znaš da se u Bg više zaradi na prasetu, nego na vašim kartama?</i>"
+        ],
+        "imageCells": [
+          "",
+          "",
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/srpski/Ko%20To%20Tamo%20Peva/4.png"
+        ],
+        "order": 0,
+        "timestamp": 1756925525561
+      },
+      {
+        "id": "column7_item2",
+        "columnId": "7",
+        "title": "više&nbsp;(больше нету)",
+        "textCells": [
+          "",
+          "",
+          "",
+          "<i>A rezerve više nemamo!</i>",
+          "",
+          ""
+        ],
+        "imageCells": [
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/srpski/Ko%20To%20Tamo%20Peva/8.png",
+          "",
+          ""
+        ],
+        "order": 2,
+        "timestamp": 1756925525562
+      },
+      {
+        "id": "column7_item3",
+        "columnId": "7",
+        "title": "jedna",
+        "textCells": [
+          "",
+          "",
+          "",
+          "<i>Jedna dobra ideja</i>",
+          "",
+          ""
+        ],
+        "imageCells": [
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/srpski/Stepenice%20za%20nebo/5.png",
+          "",
+          ""
+        ],
+        "order": 1,
+        "timestamp": 1756925835216
+      },
+      {
+        "id": "column8_item1",
+        "columnId": "8",
+        "title": "pa da",
+        "textCells": [
+          "таки да",
+          "",
+          "",
+          "<i>E, pa da.</i>",
+          "",
+          ""
+        ],
+        "imageCells": [
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/srpski/kad_budem_mrtav_i_beo/5.png",
+          "",
+          ""
+        ],
+        "order": 0,
+        "timestamp": 1757011433198
+      },
+      {
+        "id": "column8_item10",
+        "columnId": "8",
+        "title": "u redu",
+        "textCells": [
+          "",
+          "",
+          "",
+          "",
+          "<i>- Sa</i>č<i>ekajte, nemojte još da iskljucujete. -U redu.</i>",
+          ""
+        ],
+        "imageCells": [
+          "",
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/srpski/Stepenice%20za%20nebo/4.png",
+          ""
+        ],
+        "order": 6,
+        "timestamp": 1757011664107
+      },
+      {
+        "id": "column8_item11",
+        "columnId": "8",
+        "title": "nema veze",
+        "textCells": [
+          "",
+          "",
+          "",
+          "",
+          "<ul><li><i>- lzvini, ne bih se mešao da sam znao da ce te to toliko uzrujati&nbsp;</i><i>- Nema veze.</i></li></ul>",
+          ""
+        ],
+        "imageCells": [
+          "",
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/srpski/Stepenice%20za%20nebo/6.png",
+          ""
+        ],
+        "order": 5,
+        "timestamp": 1757011865795
+      },
+      {
+        "id": "column8_item2",
+        "columnId": "8",
+        "title": "<span style=\"text-wrap: wrap; background-color: rgb(255, 255, 255);\">da</span><span style=\"font-weight: 400; text-wrap: wrap; background-color: rgb(255, 255, 255);\"> усиляющее подтверждение</span>",
+        "textCells": [
+          "",
+          "",
+          "",
+          "<i>... i da nju, samo nju volim ja.</i>",
+          "",
+          ""
+        ],
+        "imageCells": [
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/srpski/kad_budem_mrtav_i_beo/11.png",
+          "",
+          ""
+        ],
+        "order": 1,
+        "timestamp": 1757011433199
+      },
+      {
+        "id": "column8_item3",
+        "columnId": "8",
+        "title": "voleti&nbsp;<span style=\"font-weight: 400; text-wrap: wrap; background-color: rgb(255, 255, 255);\">–eti &gt; –i</span>",
+        "textCells": [
+          "",
+          "",
+          "",
+          "<i>... i da nju, samo nju volim ja.</i>",
+          "",
+          ""
+        ],
+        "imageCells": [
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/srpski/kad_budem_mrtav_i_beo/11.png",
+          "",
+          ""
+        ],
+        "order": 9,
+        "timestamp": 1757011433200
+      },
+      {
+        "id": "column8_item4",
+        "columnId": "8",
+        "title": "ne treba",
+        "textCells": [
+          "",
+          "",
+          "",
+          "<i>Dragi gledaoci, ne treba da se uznemiravate.</i>",
+          "",
+          ""
+        ],
+        "imageCells": [
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/srpski/Ki%C4%8Dma/6.png",
+          "",
+          ""
+        ],
+        "order": 3,
+        "timestamp": 1757011433199
+      },
+      {
+        "id": "column8_item5",
+        "columnId": "8",
+        "title": "uznemiravati&nbsp;<span style=\"font-weight: 400; text-wrap: wrap; background-color: rgb(255, 255, 255);\">–ati &gt; –a</span>",
+        "textCells": [
+          "",
+          "",
+          "",
+          "<i>-</i>",
+          "<i>Dragi gledaoci, ne treba da se uznemiravate.</i>",
+          ""
+        ],
+        "imageCells": [
+          "",
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/srpski/Ki%C4%8Dma/6.png",
+          ""
+        ],
+        "order": 2,
+        "timestamp": 1757011433199
+      },
+      {
+        "id": "column8_item6",
+        "columnId": "8",
+        "title": "goditi&nbsp;<span style=\"font-weight: 400; text-wrap: wrap; background-color: rgb(255, 255, 255);\">–iti &gt; –i</span>",
+        "textCells": [
+          "",
+          "",
+          "",
+          "<i>-</i>",
+          "",
+          "<i>Još malo kisele vode, godilo bi vam?</i>"
+        ],
+        "imageCells": [
+          "",
+          "",
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/srpski/Ki%C4%8Dma/7.png"
+        ],
+        "order": 8,
+        "timestamp": 1757011433200
+      },
+      {
+        "id": "column8_item7",
+        "columnId": "8",
+        "title": "hteti <span style=\"font-weight: normal;\">irreg</span>",
+        "textCells": [
+          "",
+          "",
+          "",
+          "",
+          "<i>Hoćeš doći?</i><i><br>Oćeš kartu?</i>",
+          ""
+        ],
+        "imageCells": [
+          "",
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/srpski/Ko%20To%20Tamo%20Peva/2.png",
+          ""
+        ],
+        "order": 7,
+        "timestamp": 1757011433200
+      },
+      {
+        "id": "column8_item8",
+        "columnId": "8",
+        "title": "videti&nbsp;<span style=\"font-weight: 400; text-wrap: wrap; background-color: rgb(255, 255, 255);\">–iti &gt; –i</span>",
+        "textCells": [
+          "",
+          "vidaš (BiH, MNE) =&nbsp;vidiš",
+          "",
+          "",
+          "<i>Inače, vidaš nekog?</i>",
+          ""
+        ],
+        "imageCells": [
+          "",
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/srpski/Stepenice%20za%20nebo/1.png",
+          ""
+        ],
+        "order": 10,
+        "timestamp": 1757011433201
+      },
+      {
+        "id": "column8_item9",
+        "columnId": "8",
+        "title": "izviniti&nbsp;<span style=\"font-weight: 400; text-wrap: wrap; background-color: rgb(255, 255, 255);\">–iti &gt; –i</span>",
+        "textCells": [
+          "",
+          "",
+          "",
+          "",
+          "<i>Izvini.</i>",
+          ""
+        ],
+        "imageCells": [
+          "",
+          "https://raw.githubusercontent.com/camaradaVinogrado/qq_lang/refs/heads/master/pictures/srpski/Stepenice%20za%20nebo/3.png",
+          ""
+        ],
+        "order": 4,
+        "timestamp": 1757011433199
+      }
+    ]
+  }
+}
