@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Import DB to IndexedDB</title>
+  <style>
+    body { font-family: monospace; padding: 20px; background: #1a1a2e; color: #eee; }
+    #status { white-space: pre-wrap; margin-top: 10px; }
+    .ok { color: #0f0; }
+    .err { color: #f44; }
+  </style>
+</head>
+<body>
+  <h2>IndexedDB Import</h2>
+  <p>Выбери JSON-файл экспорта:</p>
+  <input type="file" id="fileInput" accept=".json">
+  <div id="status"></div>
+
+  <script>
+    const statusEl = document.getElementById('status');
+    function log(msg, cls) {
+      const line = document.createElement('div');
+      line.textContent = msg;
+      if (cls) line.className = cls;
+      statusEl.appendChild(line);
+    }
+
+    document.getElementById('fileInput').addEventListener('change', async (e) => {
+      const file = e.target.files[0];
+      if (!file) return;
+
+      log('Читаю файл...');
+      const text = await file.text();
+      const data = JSON.parse(text);
+
+      log(`БД: ${data.dbName}, версия: ${data.version}`);
+      log(`Object stores: ${data.schema.objectStores.map(s => s.name).join(', ')}`);
+
+      // Delete existing DB first to avoid version conflicts
+      await new Promise((resolve, reject) => {
+        const delReq = indexedDB.deleteDatabase(data.dbName);
+        delReq.onsuccess = () => { log('Старая БД удалена (если была)'); resolve(); };
+        delReq.onerror = () => { log('Не удалось удалить старую БД, продолжаем...'); resolve(); };
+        delReq.onblocked = () => { log('Удаление заблокировано — закрой другие вкладки с этой БД', 'err'); resolve(); };
+      });
+
+      // Open/create DB with correct schema
+      const db = await new Promise((resolve, reject) => {
+        const req = indexedDB.open(data.dbName, data.version);
+        req.onupgradeneeded = (e) => {
+          const db = e.target.result;
+          for (const storeDef of data.schema.objectStores) {
+            if (db.objectStoreNames.contains(storeDef.name)) continue;
+            const store = db.createObjectStore(storeDef.name, {
+              keyPath: storeDef.keyPath || undefined,
+              autoIncrement: storeDef.autoIncrement || false
+            });
+            for (const idx of (storeDef.indexes || [])) {
+              store.createIndex(idx.name, idx.keyPath, {
+                unique: idx.unique || false,
+                multiEntry: idx.multiEntry || false
+              });
+            }
+            log(`  Создан store: ${storeDef.name}`);
+          }
+        };
+        req.onsuccess = () => resolve(req.result);
+        req.onerror = () => reject(req.error);
+      });
+
+      log('БД открыта, импортирую данные...');
+
+      // Import data for each store
+      for (const [storeName, records] of Object.entries(data.stores)) {
+        if (!db.objectStoreNames.contains(storeName)) {
+          log(`  Store "${storeName}" не найден в схеме, пропускаю`, 'err');
+          continue;
+        }
+
+        const tx = db.transaction(storeName, 'readwrite');
+        const store = tx.objectStore(storeName);
+
+        let count = 0;
+        for (const record of records) {
+          store.put(record);
+          count++;
+        }
+
+        await new Promise((resolve, reject) => {
+          tx.oncomplete = resolve;
+          tx.onerror = () => reject(tx.error);
+        });
+
+        log(`  ${storeName}: ${count} записей`, 'ok');
+      }
+
+      db.close();
+      log('\nГотово! БД импортирована.', 'ok');
+      log('Можешь проверить в DevTools → Application → IndexedDB → Srpski');
+    });
+  </script>
+</body>
+</html>
